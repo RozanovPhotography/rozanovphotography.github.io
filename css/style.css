@@ -8,9 +8,10 @@
 /*----------------------------------------*/
 /* Template default CSS
 /*----------------------------------------*/
-html,
-body {
-	height: 100%;
+
+html, body
+{
+    height: 100%;
 	font-family: 'Josefin Sans', sans-serif;
 }
 
