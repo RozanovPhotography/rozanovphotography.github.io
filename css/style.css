@@ -1356,8 +1356,8 @@ ol {
 	}
 	.review-slider .owl-dots {
 		position: relative;
-		left: 0;
-		top: 70px;
+		left: 0px;
+		top: 5px;
 	}
 	.review-slider .owl-dots .owl-dot {
 		display: inline-block;
