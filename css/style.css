@@ -68,8 +68,8 @@ ol {
 	Helper CSS
 -----------------------*/
 .spad {
-	padding-top: 125px;
-	padding-bottom: 110px;
+	padding-top: 50px;
+	padding-bottom: 50px;
 }
 
 .section-title h2 {
@@ -242,7 +242,7 @@ ol {
 	height: 375px;
 	display: table;
 	width: 100%;
-	background: #40424a;
+	background: #f2f7f8;
 }
 
 .fact-box.trans {
@@ -262,11 +262,11 @@ ol {
 
 .fact-box .fact-content h2 {
 	font-size: 36px;
-	color: #fff;
+	color: #40424a;
 }
 
 .fact-box .fact-content p {
-	color: #fff;
+	color: #40424a;
 	margin-bottom: 0;
 }
 
@@ -443,7 +443,7 @@ ol {
 -----------------------*/
 .social-section {
 	background: #f9f9f9;
-	padding: 80px 0;
+	padding: 50px 0;
 }
 
 .social-section .social-links {
@@ -488,9 +488,7 @@ ol {
 	Resume section
 ----------------------*/
 .resume-section.with-bg {
-	background-image: url(../img/resume-bg.jpg);
-	background-repeat: no-repeat;
-	background-size: cover;
+	background: #f2f7f8;
 }
 
 .resume-list {
@@ -1372,7 +1370,7 @@ ol {
 		margin-bottom: 30px;
 	}
 	.header-section {
-		padding: 50px 0;
+		padding: 30px 0;
 	}
 	.social-section .social-links {
 		display: block;
