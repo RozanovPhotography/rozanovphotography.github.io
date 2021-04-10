@@ -1,0 +1,20 @@
+BEGIN:VCARD
+VERSION:3.0
+FN;CHARSET=UTF-8:Michael Rozanov
+N;CHARSET=UTF-8:Rozanov;Michael;;Mr;
+NICKNAME;CHARSET=UTF-8:RozanovPhotography
+GENDER:M
+BDAY:19981005
+EMAIL;CHARSET=UTF-8;type=HOME,INTERNET:misharozanov8@gmail.com
+EMAIL;CHARSET=UTF-8;type=WORK,INTERNET:misha-rozanov8@yandex.ru
+TEL;TYPE=CELL:+447583777534
+TEL;TYPE=HOME,VOICE:+79099465941
+LABEL;CHARSET=UTF-8;TYPE=HOME:Home (UK)
+ADR;CHARSET=UTF-8;TYPE=HOME:;;10 Cawdor Crescent;London;;W7 2DD;UK
+TITLE;CHARSET=UTF-8:Senior Research Analyst
+ORG;CHARSET=UTF-8:MySearch Executive Search
+URL;CHARSET=UTF-8:https://rozanovphotography.github.io/
+URL;type=WORK;CHARSET=UTF-8:https://www.mysearch.global/
+NOTE;CHARSET=UTF-8:Instagram: www.instagram.com/rozanovphotography VK: www.vk.com/misha_v_londone Facebook: www.facebook.com/mik.rozanov YouTube: www.youtube.com/c/MikeRozanov
+REV:2021-04-10T20:07:22.475Z
+END:VCARD
