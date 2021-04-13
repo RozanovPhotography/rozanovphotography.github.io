@@ -48,6 +48,9 @@ a:hover {
   text-decoration: underline;
 }
 
+.far.fa-cat:before{content:url("img/cat_face.png")}
+.far.fa-dog:before{content:url("img/dog_face.png")}
+
 .hidden {
   display: none !important;
 }
@@ -74,7 +77,7 @@ a:hover {
   border-radius: 5px;
   border: 2px solid #fff;
   overflow: hidden;  
-  background-color: #000;
+  background-color: #f2f7f8;
 }
 
 .modal-header, .modal-body, .modal-footer {
@@ -122,10 +125,14 @@ a:hover {
 
 .modal-footer button {
   width: 50%;
-  border: 0;
   color: #40424a;
-  background-color: transparent;
   cursor: pointer;
+  text-align: center;
+  background-color: #fff;
+  margin-right: 5px;
+  margin-left: 5px;
+  border: 2px solid #40424a;
+  
 }
 
 .modal-footer button:hover {

@@ -112,8 +112,6 @@ const game = (() => {
       default: 
         p2 = Player("P2", "o")
     }
-    playerNameElements[0].textContent = p1.name
-    playerNameElements[1].textContent = p2.name
     _players = [p1, p2]
   }
 
@@ -127,7 +125,7 @@ const game = (() => {
     _activeTurn = Math.floor(Math.random() * 2)
     updateScores()
     _isOver = false
-    _status = `It's ${currentPlayer().name}'s turn`
+    _status = `'s turn`
     status()
     notifyComputer()   
   }
@@ -157,7 +155,7 @@ const game = (() => {
     }
   }
 
-  const boardMarkers = ["<i class='fas fa-times'></i>", "<i class='far fa-circle'></i>"]
+  const boardMarkers = ["<i class='far fa-cat'></i>", "<i class='far fa-dog'></i>"]
   const updateCellView = cell => {
     cellElements[cell].innerHTML = boardMarkers[_activeTurn]
   }
@@ -187,7 +185,7 @@ const game = (() => {
     let winningPattern = findWinningPattern(_board)
     if (winningPattern) {
       _isOver = true
-      _status = `${currentPlayer().name} wins!`
+      _status = ` wins!`
       highlightWinningPattern(winningPattern)
       _scores[_activeTurn] ++
       updateScores()
@@ -195,12 +193,12 @@ const game = (() => {
     }
     else if (draw(_board)) {
       _isOver = true
-      _status = "It's a draw!"
+      _status = " It's a draw!"
       status()
     }
     else {      
       switchTurn()
-      _status = `It's ${currentPlayer().name}'s turn`
+      _status = `'s turn`
       status()
       notifyComputer()
     }
