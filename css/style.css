@@ -19,7 +19,7 @@ h1,
 h2,
 h3,
 h4,
-h5,
+h5,-
 h6 {
 	color: #40424a;
 	margin: 0;
@@ -175,7 +175,6 @@ ol {
 
 .circle-progress {
 	text-align: center;
-	padding-top: 30px;
 	display: inline-block;
 }
 
@@ -239,7 +238,8 @@ ol {
 
 /* Fact box */
 .fact-box {
-	height: 375px;
+	height: 310px;
+	margin-bottom: 30px;
 	display: table;
 	width: 100%;
 	background: #f2f7f8;
@@ -247,6 +247,8 @@ ol {
 
 .fact-box.trans {
 	background-color: transparent;
+	height: 275px;
+	margin-bottom: 30px;
 }
 
 .fact-box .fact-content {
