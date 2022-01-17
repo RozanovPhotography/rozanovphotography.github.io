@@ -6,15 +6,13 @@ NICKNAME;CHARSET=UTF-8:RozanovPhotography
 GENDER:M
 BDAY:19981005
 EMAIL;CHARSET=UTF-8;type=HOME,INTERNET:misharozanov8@gmail.com
-EMAIL;CHARSET=UTF-8;type=WORK,INTERNET:misha-rozanov8@yandex.ru
 TEL;TYPE=CELL:+447583777534
 TEL;TYPE=HOME,VOICE:+79099465941
 LABEL;CHARSET=UTF-8;TYPE=HOME:Home (UK)
 ADR;CHARSET=UTF-8;TYPE=HOME:;;10 Cawdor Crescent;London;;W7 2DD;UK
-TITLE;CHARSET=UTF-8:Junior Analyst
-ORG;CHARSET=UTF-8:RealTime Media
+ROLE;CHARSET=UTF-8:Analyst
+ORG;CHARSET=UTF-8:RealTime Agency
+URL;type=WORK;CHARSET=UTF-8:https://realtimeagency.com/
 URL;CHARSET=UTF-8:https://rozanovphotography.github.io/
-URL;type=WORK;CHARSET=UTF-8:https://www.mysearch.global/
-NOTE;CHARSET=UTF-8:Instagram: www.instagram.com/rozanovphotography VK: www.vk.com/misha_v_londone Facebook: www.facebook.com/mik.rozanov YouTube: www.youtube.com/c/MikeRozanov
-REV:2021-04-10T20:07:22.475Z
+REV:2022-01-17T22:37:18.043Z
 END:VCARD
