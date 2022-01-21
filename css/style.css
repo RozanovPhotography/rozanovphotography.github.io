@@ -446,7 +446,8 @@ ol {
 -----------------------*/
 .social-section {
 	background: #f9f9f9;
-	padding: 35px 0;
+	padding-top: 35px;
+	padding-bottom: 15px;
 }
 
 .social-section .social-links {
@@ -454,6 +455,7 @@ ol {
 	background: #f9f9f9;
 	position: relative;
 	z-index: 5;
+	padding-top: 8px;
 }
 
 .social-section .social-links a {
@@ -523,7 +525,7 @@ ol {
 }
 
 .resume-list h2 {
-	font-size: 72px;
+	font-size: 48px;
 	margin-bottom: 10px;
 }
 
@@ -1419,7 +1421,7 @@ ol {
 		margin-right: 30px;
 	}
 	.resume-list h2 {
-		font-size: 50px;
+		font-size: 48px;
 	}
 	.portfolio-item {
 		margin-bottom: 30px;
