@@ -10,9 +10,9 @@ TEL;TYPE=CELL:+447583777534
 TEL;TYPE=HOME,VOICE:+79099465941
 LABEL;CHARSET=UTF-8;TYPE=HOME:Home (UK)
 ADR;CHARSET=UTF-8;TYPE=HOME:;;10 Cawdor Crescent;London;;W7 2DD;UK
-ROLE;CHARSET=UTF-8:Analyst
-ORG;CHARSET=UTF-8:RealTime Agency
-URL;type=WORK;CHARSET=UTF-8:https://realtimeagency.com/
+ROLE;CHARSET=UTF-8:Marketing Effectiveness Analyst
+ORG;CHARSET=UTF-8:the7stars
+URL;type=WORK;CHARSET=UTF-8:https://www.the7stars.co.uk/
 URL;CHARSET=UTF-8:https://rozanovphotography.github.io/
-REV:2022-01-17T22:37:18.043Z
+REV:2022-05-05T05:05:05.050Z
 END:VCARD
