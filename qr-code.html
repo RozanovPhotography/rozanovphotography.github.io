@@ -1,0 +1,113 @@
+<html lang="en"><head>
+	<title>QR Code Generator</title>
+	<meta charset="UTF-8">
+	<meta name="description" content="QR Code Generator"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="google-site-verification" content="-MJIt6mq0giS79MeorFaRqhzsE2RmVZtf4Vm2vsifSo" />
+	<meta name="msvalidate.01" content="567CDB0EEF0482A191799E44BEE04E15" />
+	
+	<!-- Favicon -->   
+	<link href="img/favicon.ico" rel="shortcut icon">
+
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=G-WHKTX3TWP7"></script>
+	<script>
+		window.dataLayer = window.dataLayer || [];
+		function gtag(){dataLayer.push(arguments);}
+			gtag('js', new Date());
+			gtag('config', 'G-WHKTX3TWP7');
+	</script>
+
+	<!-- Google Fonts -->
+	<link href="https://fonts.googleapis.com/css?family=Josefin+Sans:400,400i,600,600i,700" rel="stylesheet">
+
+	<!-- Stylesheets -->
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/style-android.css">
+
+	<style>
+		div {text-align: center;}
+		textarea {text-align:center;}
+	</style>
+
+</head>
+<body style="background-color:#f2f7f8">
+	
+	<script type="text/javascript">
+        function generateQR()
+        {
+            var code="https://chart.googleapis.com/chart?chf=bg,s,65432100&cht=qr&chs=500x500";
+            var myimg=document.getElementById("image");
+            var mytext=document.getElementById("text").value;
+
+            if (mytext!=="")
+            {
+                myimg.src=code+"&chl="+mytext;
+            }
+        
+        }
+		
+		function prepHref(linkElement)
+		{ 
+			var myDiv = document.getElementById('imageDiv'); 
+			var myImage = myDiv.children[0]; 
+			linkElement.href = myImage.src; 
+		} 
+    </script>
+
+	
+	<table style="height:100%;width:100%; position: absolute; top: 0; bottom: 0; left: 0; right: 0;">
+			
+		<!-- Empty Button -->
+		<tr style="height: 25%;">
+			<td>
+			
+			</td>
+		</tr>
+		<!-- Heading -->
+		<tr style="height: 10%;">
+			<td>
+				<div class="site-logo" style="margin-left:auto;margin-right:auto%;display:block;">
+					<h2>QR Code Generator</h2>
+				</div>
+			</td>
+		</tr>
+		<!-- Empty Button -->
+		<tr style="height: 0%;">
+			<td>
+				<div id="imageDiv">
+					<center><img src="" id="image"></center>
+				</div>
+			</td>
+		</tr>
+		<!-- Text Button -->
+		<tr style="height: 12.5%;">
+			<td>
+				<center><textarea placeholder="Enter Your Text" id="text" style="margin-left:17.5%;margin-right:17.5%;display:block" class="site-btn"></textarea></center>
+			</td>
+		</tr>
+		<!-- Generate Button -->
+		<tr style="height: 12.5%;">
+			<td>
+				<div class="header-buttons">
+					<a type="submit" value="Generate" onclick="generateQR()" style="margin-left:17.5%;margin-right:17.5%;display:block" class="site-btn">Generate</a>
+				</div>
+			</td>
+		</tr>
+		<!-- Download Button -->
+		<tr style="height: 12.5%;">
+			<td>
+				<div class="header-buttons">
+					<a href="#" onclick="prepHref(this)" style="margin-left:17.5%;margin-right:17.5%;display:block" class="site-btn" download>Download</a>
+				</div>
+			</td>
+		</tr>
+		<!-- Empty Button -->
+		<tr style="height: 25%;">
+			<td>
+			
+			</td>
+		</tr>
+	</table>
+
+</body></html>
