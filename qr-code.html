@@ -18,9 +18,7 @@
 			gtag('config', 'G-WHKTX3TWP7');
 	</script>
 	
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 	<script src="https://html2canvas.hertzen.com/dist/html2canvas.min.js"></script>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/FileSaver.js/2.0.0/FileSaver.min.js"></script>
 
 	<!-- Google Fonts -->
 	<link href="https://fonts.googleapis.com/css?family=Josefin+Sans:400,400i,600,600i,700" rel="stylesheet">
@@ -49,33 +47,31 @@
                 myimg.src=code+"&chl="+mytext;
             }
         }
-		
 
+		function saveAs(uri, filename) {
 
-function saveAs(uri, filename) {
+			var link = document.createElement('a');
 
-    var link = document.createElement('a');
+			if (typeof link.download === 'string') {
 
-    if (typeof link.download === 'string') {
+				link.href = uri;
+				link.download = filename;
 
-        link.href = uri;
-        link.download = filename;
+				//Firefox requires the link to be in the body
+				document.body.appendChild(link);
 
-        //Firefox requires the link to be in the body
-        document.body.appendChild(link);
+				//simulate click
+				link.click();
 
-        //simulate click
-        link.click();
+				//remove the link when done
+				document.body.removeChild(link);
 
-        //remove the link when done
-        document.body.removeChild(link);
+			} else {
 
-    } else {
+				window.open(uri);
 
-        window.open(uri);
-
-    }
-}
+			}
+		}
     </script>
 
 	
@@ -98,9 +94,11 @@ function saveAs(uri, filename) {
 		<!-- Empty Button -->
 		<tr style="height: 0%;">
 			<td>
-				<div id="imageDiv">
-					<center><img src="" id="image"></center>
+				<center>
+				<div id="imageDiv" style="width:500px;">
+					<img src="" id="image">
 				</div>
+				</center>
 			</td>
 		</tr>
 		<!-- Text Button -->
@@ -120,11 +118,8 @@ function saveAs(uri, filename) {
 		<!-- Download Button -->
 		<tr style="height: 12.5%;">
 			<td>
-				<div class="header-buttons">
-					<a href="#" onclick="download()" style="margin-left:17.5%;margin-right:17.5%;display:block" class="site-btn" download>Download</a>
-				
-				<button id="download"> Download </button>
-
+				<div class="header-buttons">			
+					<button id="download-btn" style="margin-left:17.5%;margin-right:17.5%;display:block" class="site-btn-2">Download</button>
 				</div>
 			</td>
 		</tr>
@@ -137,8 +132,8 @@ function saveAs(uri, filename) {
 	</table>
 
 	<script>
-	document.getElementById("download").addEventListener("click", function() {
-		html2canvas(document.querySelector('#imageDiv'),{useCORS: true, allowTaint: true, width: 500, height: 500}).then(function(canvas) {
+	document.getElementById("download-btn").addEventListener("click", function() {
+		html2canvas(document.querySelector('#imageDiv'),{useCORS: true, allowTaint: true}).then(function(canvas) {
 			saveAs(canvas.toDataURL(), 'QR Code.png');
 		});
 	});
