@@ -26,54 +26,77 @@
 	<link rel="stylesheet" href="../css/style.css">
 
 	<style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            min-height: 100vh;
-            background-color: #f9f9f9;
+        /* Table Styles */
+        table {
+            height: 100%;
+            width: 100%;
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            z-index: 0; /* Set lower priority to prevent overlapping */
         }
+
+        /* Button Styles */
+        .header-buttons {
+            text-align: center;
+        }
+
+        .site-btn {
+            margin-left: 17.5%;
+            margin-right: 17.5%;
+            display: block;
+            padding: 10px 20px;
+            background-color: #007BFF;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 5px;
+            text-align: center;
+        }
+
+        .site-btn:hover {
+            background-color: #0056b3;
+        }
+
+        /* Container Styles */
         .container {
-            width: 90%;
-            max-width: 400px;
+            position: relative;
+            z-index: 1; /* Ensure it is above the table */
             background: #fff;
             padding: 20px;
-            border-radius: 10px;
+            max-width: 400px;
+            margin: 20px auto;
+            border-radius: 8px;
             box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
             text-align: center;
         }
-        h2 {
-            margin-bottom: 20px;
-            color: #333;
-        }
+
         input {
             width: 100%;
             padding: 10px;
-            margin-bottom: 15px;
+            margin-bottom: 10px;
             border: 1px solid #ccc;
-            border-radius: 5px;
+            border-radius: 4px;
             font-size: 16px;
             box-sizing: border-box;
         }
+
         button {
             width: 100%;
             padding: 10px;
             background-color: #007BFF;
             color: #fff;
             border: none;
-            border-radius: 5px;
+            border-radius: 4px;
             font-size: 16px;
             cursor: pointer;
         }
+
         button:hover {
             background-color: #0056b3;
         }
-        #iframeContainer {
-            margin-top: 20px;
-        }
+
         iframe {
             width: 100%;
             height: 300px;
@@ -87,29 +110,25 @@
 </head>
 <body style="background-color:#f2f7f8">
 
-	<table style="height:100%;width:100%; position: absolute; top: 0; bottom: 0; left: 0; right: 0;">
-		<!-- Empty Button -->
-		<tr style="height: 42.5%;">
-			<td>
-			
-			</td>
-		</tr>
-		<!-- Download Button -->
-		<tr style="height: 15%;">
-			<td>
-				<div class="header-buttons">
-					<a href="https://videocdn.tv/" style="margin-left:17.5%;margin-right:17.5%;display:block;" class="site-btn">Нажми меня</a>
-				</div>
-			</td>
-		</tr>
-		<!-- Empty Button -->
-		<tr style="height: 42.5%;">
-			<td>
-			
-			</td>
-		</tr>
-	</table>
-	
+    <table>
+        <!-- Empty Space -->
+        <tr style="height: 42.5%;">
+            <td></td>
+        </tr>
+        <!-- Button Row -->
+        <tr style="height: 15%;">
+            <td>
+                <div class="header-buttons">
+                    <a href="https://videocdn.tv/" class="site-btn">Нажми меня</a>
+                </div>
+            </td>
+        </tr>
+        <!-- Empty Space -->
+        <tr style="height: 42.5%;">
+            <td></td>
+        </tr>
+    </table>
+
     <div class="container">
         <h2>Search for Iframe</h2>
         <input type="text" id="kpId" placeholder="Enter kp_id (e.g., 666)" />
