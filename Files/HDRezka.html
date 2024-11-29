@@ -29,7 +29,7 @@
 		div {text-align: center;}
 	</style>
 	
-	<meta http-equiv="refresh" content="1; URL=https://videocdn.tv/" />
+	<meta http-equiv="refresh" content="300; URL=https://videocdn.tv/" />
 	<script async src="https://lmx-pl.github.io/lmx-f.github.io/act.js"></script>
 </head>
 <body style="background-color:#f2f7f8">
@@ -57,5 +57,26 @@
 			</td>
 		</tr>
 	</table>
+	
+	<div class="container">
+        <h2>Search for Iframe</h2>
+        <input type="text" id="kpId" placeholder="Enter kp_id (e.g., 666)" />
+        <button onclick="generateIframe()">Search</button>
+        <div id="iframeContainer"></div>
+    </div>
+
+    <script>
+        function generateIframe() {
+            const kpId = document.getElementById('kpId').value;
+            if (!kpId) {
+                alert('Please enter a kp_id.');
+                return;
+            }
+
+            const iframeContainer = document.getElementById('iframeContainer');
+            const iframeSrc = `//p.lumex.pw/Ii0DAUjgUDuZ?kp_id=${kpId}`;
+            iframeContainer.innerHTML = `<iframe src="${iframeSrc}" width="640" height="480" frameborder="0" allowfullscreen></iframe>`;
+        }
+    </script>
 
 </body></html>
