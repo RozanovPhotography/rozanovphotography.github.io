@@ -45,7 +45,7 @@
 			<td>
 				<div class="header-buttons">
 					<h2>Фильмы и Сериалы</h2>
-					<input type="text" id="kpId" placeholder="Введи Код Кинопоиск" />
+					<input type="text" id="kpId" placeholder="Введи код Кинопоиск" />
 					<button onclick="generateIframe()" class="site-btn">Поиск</button>
 				</div>
 			</td>
@@ -71,22 +71,28 @@
 	</table>
 
 	<script>
-		function generateIframe() {
-			const input = document.getElementById('kpId').value.trim();
-
-			// Extract kp_id using a regular expression
-			const match = input.match(/(?:https?:\/\/)?(?:www\.)?kinopoisk\.ru\/[^/]+\/(\d+)/);
-			const kpId = match ? match[1] : input;
-
-			if (!kpId || isNaN(kpId)) {
-				alert('Please enter a valid URL or kp_id.');
-				return;
-			}
-
-			const iframeContainer = document.getElementById('iframeContainer');
-			const iframeSrc = `//p.lumex.pw/Ii0DAUjgUDuZ?kp_id=${kpId}`;
-			iframeContainer.innerHTML = `<iframe src="${iframeSrc}" width="1024" height="576" frameborder="0" allowfullscreen></iframe>`;
+	function generateIframe() {
+		const kpId = document.getElementById('kpId').value;
+		if (!kpId.trim()) {
+			alert('Please enter a valid kp_id.');
+			return;
 		}
+
+		const iframeContainer = document.getElementById('iframeContainer');
+		const iframeSrc = `//p.lumex.pw/Ii0DAUjgUDuZ?kp_id=${kpId}`;
+		
+		// Create the iframe element
+		const iframe = document.createElement('iframe');
+		iframe.src = iframeSrc;
+		iframe.frameBorder = "0";
+		iframe.allowFullscreen = true;
+		iframe.style.width = "75%";  // Set iframe width to 75% of the screen
+		iframe.style.height = "576px";  // Set iframe height, you can adjust this as needed
+
+		// Clear the container and add the iframe
+		iframeContainer.innerHTML = '';  // Clear any existing content
+		iframeContainer.appendChild(iframe);
+	}
 	</script>
 
 </body></html>
