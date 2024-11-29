@@ -26,121 +26,30 @@
 	<link rel="stylesheet" href="../css/style.css">
 
 	<style>
-        /* Table Styles */
-        table {
-            height: 100%;
-            width: 100%;
-            position: absolute;
-            top: 0;
-            bottom: 0;
-            left: 0;
-            right: 0;
-            z-index: 0; /* Set lower priority to prevent overlapping */
-        }
-
-        /* Button Styles */
-        .header-buttons {
-            text-align: center;
-        }
-
-        .site-btn {
-            margin-left: 17.5%;
-            margin-right: 17.5%;
-            display: block;
-            padding: 10px 20px;
-            background-color: #007BFF;
-            color: #fff;
-            text-decoration: none;
-            border-radius: 5px;
-            text-align: center;
-        }
-
-        .site-btn:hover {
-            background-color: #0056b3;
-        }
-
-        /* Container Styles */
-        .container {
-            position: relative;
-            z-index: 1; /* Ensure it is above the table */
-            background: #fff;
-            padding: 20px;
-            max-width: 400px;
-            margin: 20px auto;
-            border-radius: 8px;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-            text-align: center;
-        }
-
-        input {
-            width: 100%;
-            padding: 10px;
-            margin-bottom: 10px;
-            border: 1px solid #ccc;
-            border-radius: 4px;
-            font-size: 16px;
-            box-sizing: border-box;
-        }
-
-        button {
-            width: 100%;
-            padding: 10px;
-            background-color: #007BFF;
-            color: #fff;
-            border: none;
-            border-radius: 4px;
-            font-size: 16px;
-            cursor: pointer;
-        }
-
-        button:hover {
-            background-color: #0056b3;
-        }
-
-        iframe {
-            width: 100%;
-            height: 300px;
-            border: none;
-            border-radius: 5px;
-        }
+		div {text-align: center;}
 	</style>
 	
-	<meta http-equiv="refresh" content="300; URL=https://videocdn.tv/" />
 	<script async src="https://lmx-pl.github.io/lmx-f.github.io/act.js"></script>
 </head>
 <body style="background-color:#f2f7f8">
 
-    <table>
-        <!-- Empty Space -->
-        <tr style="height: 42.5%;">
-            <td></td>
-        </tr>
-        <!-- Button Row -->
-        <tr style="height: 15%;">
-            <td>
-                <div class="header-buttons">
-                    <a href="https://videocdn.tv/" class="site-btn">Нажми меня</a>
-                </div>
-            </td>
-        </tr>
-        <!-- Empty Space -->
-        <tr style="height: 42.5%;">
-            <td></td>
-        </tr>
-    </table>
-
     <div class="container">
-        <h2>Search for Iframe</h2>
-        <input type="text" id="kpId" placeholder="Enter kp_id (e.g., 666)" />
-        <button onclick="generateIframe()">Search</button>
+        <h2>Фильмы и Сериалы</h2>
+        <input type="text" id="kpId" placeholder="Введи Код Кинопоиск" />
+        <button onclick="generateIframe()">Поиск</button>
         <div id="iframeContainer"></div>
     </div>
 
     <script>
         function generateIframe() {
-            const kpId = document.getElementById('kpId').value;
-            if (!kpId.trim()) {
-                alert('Please enter a valid kp_id.');
+            const input = document.getElementById('kpId').value.trim();
+
+            // Extract kp_id using a regular expression
+            const match = input.match(/(?:https?:\/\/)?(?:www\.)?kinopoisk\.ru\/[^/]+\/(\d+)/);
+            const kpId = match ? match[1] : input;
+
+            if (!kpId || isNaN(kpId)) {
+                alert('Please enter a valid URL or kp_id.');
                 return;
             }
 
