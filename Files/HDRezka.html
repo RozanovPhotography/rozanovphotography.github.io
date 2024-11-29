@@ -39,6 +39,43 @@
         <button onclick="generateIframe()">Поиск</button>
         <div id="iframeContainer"></div>
     </div>
+	
+		<table style="height:100%;width:100%; position: absolute; top: 0; bottom: 0; left: 0; right: 0;">
+		<!-- Empty Button -->
+		<tr style="height: 32.5%;">
+			<td>
+			
+			</td>
+		</tr>
+		<!-- Search -->
+		<tr style="height: 15%;">
+			<td>
+				<div class="header-buttons">
+					<h2>Фильмы и Сериалы</h2>
+					<input type="text" id="kpId" placeholder="Введи Код Кинопоиск" />
+					<button onclick="generateIframe()">Поиск</button>
+				</div>
+			</td>
+		</tr>
+		<!-- Empty -->
+		<tr style="height: 5%;">
+			<td>
+			
+			</td>
+		</tr>
+		<!-- Player -->
+		<tr style="height: 15%;">
+			<td>
+				<div id="iframeContainer"></div>
+			</td>
+		</tr>
+		<!-- Empty -->
+		<tr style="height: 32.5%;">
+			<td>
+			
+			</td>
+		</tr>
+	</table>
 
     <script>
         function generateIframe() {
