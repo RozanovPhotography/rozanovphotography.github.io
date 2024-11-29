@@ -35,7 +35,7 @@
 	
 	<table style="height:100%;width:100%; position: absolute; top: 0; bottom: 0; left: 0; right: 0;">
 		<!-- Empty -->
-		<tr style="height: 15%;">
+		<tr style="height: 10%;">
 			<td>
 			
 			</td>
@@ -46,18 +46,18 @@
 				<div class="header-buttons">
 					<h2>Фильмы и Сериалы</h2>
 					<input type="text" id="kpId" placeholder="Введи Код Кинопоиск" />
-					<button onclick="generateIframe()">Поиск</button>
+					<button onclick="generateIframe()" class="site-btn">Поиск</button>
 				</div>
 			</td>
 		</tr>
 		<!-- Empty -->
-		<tr style="height: 15%;">
+		<tr style="height: 10%;">
 			<td>
 			
 			</td>
 		</tr>
 		<!-- Player -->
-		<tr style="height: 30%;">
+		<tr style="height: 40%;">
 			<td>
 				<div id="iframeContainer"></div>
 			</td>
@@ -85,7 +85,7 @@
 
 			const iframeContainer = document.getElementById('iframeContainer');
 			const iframeSrc = `//p.lumex.pw/Ii0DAUjgUDuZ?kp_id=${kpId}`;
-			iframeContainer.innerHTML = `<iframe src="${iframeSrc}" width="640" height="480" frameborder="0" allowfullscreen></iframe>`;
+			iframeContainer.innerHTML = `<iframe src="${iframeSrc}" width="1024" height="576" frameborder="0" allowfullscreen></iframe>`;
 		}
 	</script>
 
