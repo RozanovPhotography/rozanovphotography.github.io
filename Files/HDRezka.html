@@ -35,7 +35,7 @@
 	
 	<table style="height:100%;width:100%; position: absolute; top: 0; bottom: 0; left: 0; right: 0;">
 		<!-- Empty -->
-		<tr style="height: 32.5%;">
+		<tr style="height: 15%;">
 			<td>
 			
 			</td>
@@ -51,42 +51,42 @@
 			</td>
 		</tr>
 		<!-- Empty -->
-		<tr style="height: 5%;">
+		<tr style="height: 15%;">
 			<td>
 			
 			</td>
 		</tr>
 		<!-- Player -->
-		<tr style="height: 15%;">
+		<tr style="height: 30%;">
 			<td>
 				<div id="iframeContainer"></div>
 			</td>
 		</tr>
 		<!-- Empty -->
-		<tr style="height: 32.5%;">
+		<tr style="height: 25%;">
 			<td>
 			
 			</td>
 		</tr>
 	</table>
 
-    <script>
-        function generateIframe() {
-            const input = document.getElementById('kpId').value.trim();
+	<script>
+		function generateIframe() {
+			const input = document.getElementById('kpId').value.trim();
 
-            // Extract kp_id using a regular expression
-            const match = input.match(/(?:https?:\/\/)?(?:www\.)?kinopoisk\.ru\/[^/]+\/(\d+)/);
-            const kpId = match ? match[1] : input;
+			// Extract kp_id using a regular expression
+			const match = input.match(/(?:https?:\/\/)?(?:www\.)?kinopoisk\.ru\/[^/]+\/(\d+)/);
+			const kpId = match ? match[1] : input;
 
-            if (!kpId || isNaN(kpId)) {
-                alert('Please enter a valid URL or kp_id.');
-                return;
-            }
+			if (!kpId || isNaN(kpId)) {
+				alert('Please enter a valid URL or kp_id.');
+				return;
+			}
 
-            const iframeContainer = document.getElementById('iframeContainer');
-            const iframeSrc = `//p.lumex.pw/Ii0DAUjgUDuZ?kp_id=${kpId}`;
-            iframeContainer.innerHTML = `<iframe src="${iframeSrc}" allowfullscreen></iframe>`;
-        }
-    </script>
+			const iframeContainer = document.getElementById('iframeContainer');
+			const iframeSrc = `//p.lumex.pw/Ii0DAUjgUDuZ?kp_id=${kpId}`;
+			iframeContainer.innerHTML = `<iframe src="${iframeSrc}" width="640" height="480" frameborder="0" allowfullscreen></iframe>`;
+		}
+	</script>
 
 </body></html>
