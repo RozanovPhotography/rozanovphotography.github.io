@@ -67,7 +67,6 @@
 		<tr style="height: 15%;">
 			<td>
 				<div id="iframeContainer"></div>
-				<div id="movieInfo" style="margin-top: 15px; font-size: 18px; font-weight: bold;"></div>
 			</td>
 		</tr>
 		<!-- Empty -->
@@ -79,47 +78,31 @@
 	</table>
 
 <script>
-    async function generateIframeAndText() {
-    const input = document.getElementById('kpId').value.trim();
+    function generateIframe() {
+        const input = document.getElementById('kpId').value.trim();
 
-    const match = input.match(/(?:https?:\/\/)?(?:www\.)?kinopoisk\.ru\/[^/]+\/(\d+)/);
-    const kpId = match ? match[1] : input;
+        // Extract kp_id using a regular expression
+        const match = input.match(/(?:https?:\/\/)?(?:www\.)?kinopoisk\.ru\/[^/]+\/(\d+)/);
+        const kpId = match ? match[1] : input;
 
-    if (!kpId || isNaN(kpId)) {
-        alert('Сначала введи код Кинопоиск!');
-        return;
-    }
-
-    // Use a proxy server to bypass CORS
-    const proxyUrl = "https://cors-anywhere.herokuapp.com/"; // Example proxy (free, for development only)
-    const apiUrl = `https://portal.lumex.host/api/short?api_token=tTdeXMW7Vn6L82jEFPlTt6gcNRB4M9EJ&kinopoisk_id=${kpId}`;
-
-    try {
-        const response = await fetch(proxyUrl + apiUrl);
-        const data = await response.json();
-
-        if (data.result && data.data.length > 0) {
-            const movie = data.data[0];
-            const title = decodeURIComponent(escape(movie.title)); // Decoded title
-            const year = movie.year.split('-')[0]; // Extract year
-
-            // Display the iframe
-            const iframeContainer = document.getElementById('iframeContainer');
-            const iframeSrc = `//p.lumex.pw/Ii0DAUjgUDuZ?kp_id=${kpId}`;
-            iframeContainer.innerHTML = `<iframe src="${iframeSrc}" style="width: 75%; height: 375px;" frameborder="0" allowfullscreen></iframe>`;
-
-            // Display the title and year
-            const movieInfo = document.getElementById('movieInfo');
-            movieInfo.textContent = `${title} (${year})`;
-        } else {
-            alert('Фильм не найден!');
+        if (!kpId || isNaN(kpId)) {
+            alert('Сначала введи код Кинопоиск!');
+            return;
         }
-    } catch (error) {
-        console.error('Ошибка при получении данных:', error);
-        alert('Не удалось загрузить данные.');
-    }
-}
 
+        const iframeContainer = document.getElementById('iframeContainer');
+        const iframeSrc = //p.lumex.pw/Ii0DAUjgUDuZ?kp_id=${kpId};
+        
+        // Set iframe with 75% width and dynamic height
+        iframeContainer.innerHTML = <iframe src="${iframeSrc}" style="width: 75%; height: 375px;" frameborder="0" allowfullscreen></iframe>;
+    }
+
+    // Add an event listener to detect the Enter key press
+    document.getElementById('kpId').addEventListener('keydown', function (event) {
+        if (event.key === 'Enter') {
+            generateIframe();
+        }
+    });
 </script>
 
 </body></html>
