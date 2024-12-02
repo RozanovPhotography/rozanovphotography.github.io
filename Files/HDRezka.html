@@ -67,6 +67,7 @@
 		<tr style="height: 15%;">
 			<td>
 				<div id="iframeContainer"></div>
+				<div id="movieInfo" style="margin-top: 15px; font-size: 18px; font-weight: bold;"></div>
 			</td>
 		</tr>
 		<!-- Empty -->
@@ -78,7 +79,7 @@
 	</table>
 
 <script>
-    function generateIframe() {
+    async function generateIframeAndText() {
         const input = document.getElementById('kpId').value.trim();
 
         // Extract kp_id using a regular expression
@@ -90,17 +91,38 @@
             return;
         }
 
-        const iframeContainer = document.getElementById('iframeContainer');
-        const iframeSrc = `//p.lumex.pw/Ii0DAUjgUDuZ?kp_id=${kpId}`;
-        
-        // Set iframe with 75% width and dynamic height
-        iframeContainer.innerHTML = `<iframe src="${iframeSrc}" style="width: 75%; height: 375px;" frameborder="0" allowfullscreen></iframe>`;
+        // API call to fetch movie details
+        const apiUrl = `https://portal.lumex.host/api/short?api_token=tTdeXMW7Vn6L82jEFPlTt6gcNRB4M9EJ&kinopoisk_id=${kpId}`;
+        try {
+            const response = await fetch(apiUrl);
+            const data = await response.json();
+
+            if (data.result && data.data.length > 0) {
+                const movie = data.data[0];
+                const title = decodeURIComponent(escape(movie.title)); // Decoded title
+                const year = movie.year.split('-')[0]; // Extract year
+
+                // Display the iframe
+                const iframeContainer = document.getElementById('iframeContainer');
+                const iframeSrc = `//p.lumex.pw/Ii0DAUjgUDuZ?kp_id=${kpId}`;
+                iframeContainer.innerHTML = `<iframe src="${iframeSrc}" style="width: 75%; height: 375px;" frameborder="0" allowfullscreen></iframe>`;
+
+                // Display the title and year
+                const movieInfo = document.getElementById('movieInfo');
+                movieInfo.textContent = `${title} (${year})`;
+            } else {
+                alert('Фильм не найден!');
+            }
+        } catch (error) {
+            console.error('Ошибка при получении данных:', error);
+            alert('Не удалось загрузить данные.');
+        }
     }
 
     // Add an event listener to detect the Enter key press
     document.getElementById('kpId').addEventListener('keydown', function (event) {
         if (event.key === 'Enter') {
-            generateIframe();
+            generateIframeAndText();
         }
     });
 </script>
