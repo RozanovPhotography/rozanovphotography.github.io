@@ -41,26 +41,22 @@
 			</td>
 		</tr>
 		<!-- Input Section -->
-       <tr style="height: 5%;">
-            <td>
-                <div class="header-buttons">
-                    <h2 class="lang" data-ru="Фильмы и Сериалы" data-en="Movies and TV Shows">Фильмы и Сериалы</h2>
-                    <input type="text" id="kpId" placeholder="Введи Код Кинопоиск" 
-                           data-ru="Введи Код Кинопоиск" 
-                           data-en="Enter Kinopoisk Code" 
-                           class="site-btn" />
-                </div>
-            </td>
-        </tr>
-        <!-- Button -->
-        <tr style="height: 5%;">
-            <td>
-                <div class="header-buttons">
-                    <button onclick="generateIframe()" class="btn btn-primary lang"
-                            data-ru="Поиск" data-en="Search">Поиск</button>
-                </div>
-            </td>
-        </tr>
+		<tr style="height: 5%;">
+			<td>
+				<div class="header-buttons">
+					<h2>🎬🍿</h2>
+					<input type="text" id="kpId" placeholder="Введи Код Кинопоиск" class="site-btn" />
+				</div>
+			</td>
+		</tr>
+		<!-- Button -->
+		<tr style="height: 5%;">
+			<td>
+				<div class="header-buttons">
+					<button onclick="generateIframe()" class="btn btn-primary">Поиск</button>
+				</div>
+			</td>
+		</tr>
 		<!-- Empty -->
 		<tr style="height: 5%;">
 			<td>
@@ -108,36 +104,5 @@
         }
     });
 </script>
-
-    <script>
-        // Wait for the DOM to load before running the script
-        window.addEventListener('DOMContentLoaded', () => {
-            // Detect the user's browser language
-            const userLang = navigator.language || navigator.userLanguage;
-            console.log("Detected Language:", userLang); // Debugging
-
-            // Set the language (default to Russian if not English)
-            const lang = userLang.startsWith('en') ? 'en' : 'ru';
-            
-            // Update the <html> tag's lang attribute
-            document.documentElement.lang = lang;
-
-            // Update text for elements with the 'lang' class
-            document.querySelectorAll('.lang').forEach(element => {
-                const text = element.getAttribute(`data-${lang}`);
-                if (text) {
-                    element.textContent = text; // Update text content
-                }
-            });
-
-            // Update placeholders for input elements
-            document.querySelectorAll('input[data-en], input[data-ru]').forEach(input => {
-                const placeholderText = input.getAttribute(`data-${lang}`);
-                if (placeholderText) {
-                    input.placeholder = placeholderText; // Update placeholder
-                }
-            });
-        });
-    </script>
 
 </body></html>
