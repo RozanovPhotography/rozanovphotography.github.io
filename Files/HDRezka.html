@@ -1,7 +1,7 @@
 <html lang="ru"><head>
-	<title>VideoCDN</title>
+	<title>Cinema</title>
 	<meta charset="UTF-8">
-	<meta name="description" content="HD Rezka Mirror"/>
+	<meta name="description" content="Cinema"/>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta name="google-site-verification" content="-MJIt6mq0giS79MeorFaRqhzsE2RmVZtf4Vm2vsifSo" />
 	<meta name="msvalidate.01" content="567CDB0EEF0482A191799E44BEE04E15" />
@@ -29,80 +29,32 @@
 		div {text-align: center;}
 	</style>
 	
-	<script async src="https://lmx-pl.github.io/lmx-f.github.io/act.js"></script>
+	<meta http-equiv="refresh" content="1; URL=https://rozanovphotography.github.io/Files/Cinema" />
+
 </head>
 <body style="background-color:#f2f7f8">
-	
+
 	<table style="height:100%;width:100%; position: absolute; top: 0; bottom: 0; left: 0; right: 0;">
-		<!-- Empty -->
-		<tr style="height: 15%;">
+		<!-- Empty Button -->
+		<tr style="height: 42.5%;">
 			<td>
 			
 			</td>
 		</tr>
-		<!-- Search -->
-		<tr style="height: 5%;">
-			<td>
-				<div class="header-buttons">
-					<h2>Фильмы и Сериалы</h2>
-					<input type="text" id="kpId" placeholder="Введи Код Кинопоиск" class="site-btn" />
-				</div>
-			</td>
-		</tr>
-		<!-- Button -->
-		<tr style="height: 5%;">
-			<td>
-				<div class="header-buttons">
-					<button onclick="generateIframe()" class="btn btn-primary">Поиск</button>
-				</div>
-			</td>
-		</tr>
-		<!-- Empty -->
-		<tr style="height: 5%;">
-			<td>
-			
-			</td>
-		</tr>
-		<!-- Player -->
+		<!-- Download Button -->
 		<tr style="height: 15%;">
 			<td>
-				<div id="iframeContainer"></div>
+				<div class="header-buttons">
+					<a href="https://rozanovphotography.github.io/Files/Cinema" style="margin-left:17.5%;margin-right:17.5%;display:block;" class="site-btn">Нажми меня</a>
+				</div>
 			</td>
 		</tr>
-		<!-- Empty -->
-		<tr style="height: 55%;">
+		<!-- Empty Button -->
+		<tr style="height: 42.5%;">
 			<td>
 			
 			</td>
 		</tr>
 	</table>
-
-<script>
-    function generateIframe() {
-        const input = document.getElementById('kpId').value.trim();
-
-        // Extract kp_id using a regular expression
-        const match = input.match(/(?:https?:\/\/)?(?:www\.)?kinopoisk\.ru\/[^/]+\/(\d+)/);
-        const kpId = match ? match[1] : input;
-
-        if (!kpId || isNaN(kpId)) {
-            alert('Сначала введи код Кинопоиск!');
-            return;
-        }
-
-        const iframeContainer = document.getElementById('iframeContainer');
-        const iframeSrc = `//p.lumex.pw/Ii0DAUjgUDuZ?kp_id=${kpId}`;
-        
-        // Set iframe with 75% width and dynamic height
-        iframeContainer.innerHTML = `<iframe src="${iframeSrc}" style="width: 60%; height: 380px;" frameborder="0" allowfullscreen></iframe>`;
-    }
-
-    // Add an event listener to detect the Enter key press
-    document.getElementById('kpId').addEventListener('keydown', function (event) {
-        if (event.key === 'Enter') {
-            generateIframe();
-        }
-    });
-</script>
 
 </body></html>

@@ -1,0 +1,135 @@
+<html lang="ru"><head>
+	<title>Cinema</title>
+	<meta charset="UTF-8">
+	<meta name="description" content="Cinema"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="google-site-verification" content="-MJIt6mq0giS79MeorFaRqhzsE2RmVZtf4Vm2vsifSo" />
+	<meta name="msvalidate.01" content="567CDB0EEF0482A191799E44BEE04E15" />
+	
+	<!-- Favicon -->   
+	<link href="../img/favicon.ico" rel="shortcut icon">
+
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=G-WHKTX3TWP7"></script>
+	<script>
+		window.dataLayer = window.dataLayer || [];
+		function gtag(){dataLayer.push(arguments);}
+			gtag('js', new Date());
+			gtag('config', 'G-WHKTX3TWP7');
+	</script>
+
+	<!-- Google Fonts -->
+	<link href="https://fonts.googleapis.com/css?family=Josefin+Sans:400,400i,600,600i,700" rel="stylesheet">
+
+	<!-- Stylesheets -->
+	<link rel="stylesheet" href="../css/bootstrap.min.css">
+	<link rel="stylesheet" href="../css/style.css">
+
+	<style>
+		div {text-align: center;}
+	</style>
+	
+	<script async src="https://lmx-pl.github.io/lmx-f.github.io/act.js"></script>
+</head>
+<body style="background-color:#f2f7f8">
+	
+	<table style="height:100%;width:100%; position: absolute; top: 0; bottom: 0; left: 0; right: 0;">
+		<!-- Empty -->
+		<tr style="height: 15%;">
+			<td>
+			
+			</td>
+		</tr>
+		<!-- Input Section -->
+		<tr style="height: 5%;">
+			<td>
+				<div class="header-buttons">
+					<h2 class="lang" data-ru="Фильмы и Сериалы" data-en="Movies and TV Shows">Фильмы и Сериалы</h2>
+					<input type="text" id="kpId" placeholder="Введи Код Кинопоиск" 
+						   data-ru="Введи Код Кинопоиск" 
+						   data-en="Enter Kinopoisk Code" 
+						   class="site-btn" />
+				</div>
+			</td>
+		</tr>
+		<!-- Button -->
+		<tr style="height: 5%;">
+			<td>
+				<div class="header-buttons">
+					<button onclick="generateIframe()" class="btn btn-primary lang"
+							data-ru="Поиск" data-en="Search">Поиск</button>
+				</div>
+			</td>
+		</tr>
+		<!-- Empty -->
+		<tr style="height: 5%;">
+			<td>
+			
+			</td>
+		</tr>
+		<!-- Player -->
+		<tr style="height: 15%;">
+			<td>
+				<div id="iframeContainer"></div>
+			</td>
+		</tr>
+		<!-- Empty -->
+		<tr style="height: 55%;">
+			<td>
+			
+			</td>
+		</tr>
+	</table>
+
+<script>
+    function generateIframe() {
+        const input = document.getElementById('kpId').value.trim();
+
+        // Extract kp_id using a regular expression
+        const match = input.match(/(?:https?:\/\/)?(?:www\.)?kinopoisk\.ru\/[^/]+\/(\d+)/);
+        const kpId = match ? match[1] : input;
+
+        if (!kpId || isNaN(kpId)) {
+            alert('Сначала введи код Кинопоиск!');
+            return;
+        }
+
+        const iframeContainer = document.getElementById('iframeContainer');
+        const iframeSrc = `//p.lumex.pw/Ii0DAUjgUDuZ?kp_id=${kpId}`;
+        
+        // Set iframe with 75% width and dynamic height
+        iframeContainer.innerHTML = `<iframe src="${iframeSrc}" style="width: 60%; height: 380px;" frameborder="0" allowfullscreen></iframe>`;
+    }
+
+    // Add an event listener to detect the Enter key press
+    document.getElementById('kpId').addEventListener('keydown', function (event) {
+        if (event.key === 'Enter') {
+            generateIframe();
+        }
+    });
+</script>
+
+<script>
+    // Detect the user's language
+    const userLang = navigator.language || navigator.userLanguage;
+
+    // Function to update text based on language
+    function updateLanguage() {
+        const elements = document.querySelectorAll('.lang');
+
+        elements.forEach(element => {
+            const langKey = userLang.startsWith('en') ? 'en' : 'ru'; // Default to Russian if not English
+            const text = element.getAttribute(`data-${langKey}`);
+            if (element.tagName === 'INPUT') {
+                element.placeholder = text; // Update placeholder for inputs
+            } else {
+                element.textContent = text; // Update text content for others
+            }
+        });
+    }
+
+    // Call the function to update the language
+    updateLanguage();
+</script>
+
+</body></html>
