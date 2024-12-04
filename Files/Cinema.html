@@ -109,27 +109,23 @@
     });
 </script>
 
-<script>
-    // Detect the user's language
-    const userLang = navigator.language || navigator.userLanguage;
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            // Detect the user's language
+            const userLang = navigator.language || navigator.userLanguage;
 
-    // Function to update text based on language
-    function updateLanguage() {
-        const elements = document.querySelectorAll('.lang');
+            // Update the `lang` attribute of the `<html>` element
+            const lang = userLang.startsWith('en') ? 'en' : 'ru';
+            document.documentElement.lang = lang;
 
-        elements.forEach(element => {
-            const langKey = userLang.startsWith('en') ? 'en' : 'ru'; // Default to Russian if not English
-            const text = element.getAttribute(`data-${langKey}`);
-            if (element.tagName === 'INPUT') {
-                element.placeholder = text; // Update placeholder for inputs
-            } else {
-                element.textContent = text; // Update text content for others
-            }
+            // Update text content dynamically
+            document.querySelectorAll('.lang').forEach(element => {
+                const text = element.getAttribute(`data-${lang}`);
+                if (text) {
+                    element.textContent = text;
+                }
+            });
         });
-    }
-
-    // Call the function to update the language
-    updateLanguage();
-</script>
+    </script>
 
 </body></html>
