@@ -78,60 +78,31 @@
 	</table>
 
 <script>
-    // Function to generate the iframe based on input or URL parameter
     function generateIframe() {
-        const inputField = document.getElementById('kpId');
-        const input = inputField ? inputField.value.trim() : '';
-        
-        // Get kp_id from input or URL parameter
-        const urlParams = new URLSearchParams(window.location.search);
-        const paramKpId = urlParams.get('kp_id');
-        const kpId = input || paramKpId;
+        const input = document.getElementById('kpId').value.trim();
 
-        // If no kp_id is supplied, use default behavior
-        if (!kpId) {
-            const iframeContainer = document.getElementById('iframeContainer');
-            iframeContainer.innerHTML = `<p>Введите код или используйте параметр URL "kp_id".</p>`;
+        // Extract kp_id using a regular expression
+        const match = input.match(/(?:https?:\/\/)?(?:www\.)?kinopoisk\.ru\/[^/]+\/(\d+)/);
+        const kpId = match ? match[1] : input;
+
+        if (!kpId || isNaN(kpId)) {
+            alert('Сначала введи код Кинопоиск!');
             return;
         }
 
-        // Validate kp_id (extract from input or use directly)
-        const match = kpId.match(/^\d+$/) ? kpId : kpId.match(/(?:https?:\/\/)?(?:www\.)?kinopoisk\.ru\/[^/]+\/(\d+)/)?.[1];
-
-        if (!match) {
-            alert('Введите корректный код или ссылку на Кинопоиск!');
-            return;
-        }
-
-        // Construct iframe
         const iframeContainer = document.getElementById('iframeContainer');
-        const iframeSrc = `//p.lumex.pw/Ii0DAUjgUDuZ?kp_id=${match}`;
-
-        iframeContainer.innerHTML = `
-            <iframe
-                src="${iframeSrc}"
-                style="width: 75%; height: 425px; border: none;"
-                allowfullscreen>
-            </iframe>`;
+        const iframeSrc = `//p.lumex.pw/Ii0DAUjgUDuZ?kp_id=${kpId}`;
+        
+        // Set iframe with 75% width and dynamic height
+        iframeContainer.innerHTML = `<iframe src="${iframeSrc}" style="width: 75%; height: 425px;" frameborder="0" allowfullscreen></iframe>`;
     }
 
-    // Automatically generate iframe on page load if "kp_id" parameter is present
-    window.onload = function () {
-        const urlParams = new URLSearchParams(window.location.search);
-        if (urlParams.has('kp_id')) {
-            generateIframe(); // Automatically generate the iframe
+    // Add an event listener to detect the Enter key press
+    document.getElementById('kpId').addEventListener('keydown', function (event) {
+        if (event.key === 'Enter') {
+            generateIframe();
         }
-    };
-
-    // Add an event listener for Enter key press in the input field
-    const inputField = document.getElementById('kpId');
-    if (inputField) {
-        inputField.addEventListener('keydown', function (event) {
-            if (event.key === 'Enter') {
-                generateIframe();
-            }
-        });
-    }
+    });
 </script>
 
 </body></html>
