@@ -284,7 +284,7 @@
 							<div class="fact-box">
 								<div class="fact-content">
 									<img src="img/icon/picture.svg">
-									<h2>1825+</h2>
+									<h2>1850+</h2>
 									<p>Posts published on <a href="https://www.instagram.com/rozanovphotography/">Instagram</a></p>
 								</div>
 							</div>
@@ -443,13 +443,6 @@
 					<div class="review-slider owl-carousel">
 						<div class="single-review">
 							<div class="qut">“</div>
-							<p>Michael has been a joy to work with! He is a mathematician, computer scientist (which I discovered recently, of course), photographer and my lovely friend. He offered to create a homepage for me and I really appreciate all the effort he had put into it. I asked him to do quite a lot of corrections and tweaks and he had always been very patient and helpful.
-							<br />Thank you!</p>
-							<h3>Ms <a href = "https://www.instagram.com/notbluelagoon/">Jiani Zhou</a></h3>
-							<h4>Postgraduate Officer, <a href="https://www.thesubath.com">The SU Bath</a>, Bath, UK</h4>
-						</div>
-						<div class="single-review">
-							<div class="qut">“</div>
 							<p>Michael's excellent personality makes him indispensable in work and in friendship. He is a professional in his field. His sense of responsibility, punctuality, curiosity, discipline and high level of erudition make it clear that he will not fail in any business. As a friend, he has an excellent sense of humour, responsiveness and ability to keep up a conversation. The number of his hobbies is amazing!</p>
 							<h3>Ms <a href = "https://vk.com/id3666257">Elena Odinokova</a></h3>
 							<h4>Teacher, <a href="http://krasnder.ru/">College of Industry Technologies "Krasnoderevets"</a>, St. Petersburg, Russia</h4>
@@ -546,5 +539,24 @@
 	<script src="js/magnific-popup.min.js"></script>
 	<script src="js/circle-progress.min.js"></script>
 	<script src="js/main.js"></script>
+	<script>
+		$(document).ready(function() {
+			var $carousel = $('.review-slider');
+			if ($carousel.hasClass('owl-loaded')) {
+				$carousel.trigger('destroy.owl.carousel').removeClass('owl-loaded owl-drag');
+			}
+			$carousel.owlCarousel({
+				loop: true,
+				margin: 0,
+				items: 1,
+				startPosition: 0,
+				autoplay: true,
+				autoplayTimeout: 6000,
+				smartSpeed: 1000,
+				dots: true,
+				nav: false
+			});
+		});
+	</script>
 
 </body></html>
