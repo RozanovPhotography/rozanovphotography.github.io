@@ -1,42 +1,24 @@
 #EXTM3U
-#EXTINF:-1 group-title="ESPN",24-ESPN 2 HD
-http://8.243.126.131:8000/play/a04v/index.m3u8
-#EXTINF:-1 group-title="ESPN",32-Espn Premiun HD
-http://8.243.126.131:8000/play/a053/index.m3u8
-#EXTINF:-1 group-title="ESPN",43-ESPN6 HD
-http://8.243.126.131:8000/play/a05e/index.m3u8
-#EXTINF:-1 group-title="ESPN",48-ESPN3 HD
-http://8.243.126.131:8000/play/a05j/index.m3u8
-#EXTINF:-1 group-title="ESPN",55-ESPN1
-http://8.243.126.131:8000/play/a05q/index.m3u8
-#EXTINF:-1 group-title="ESPN",70-ESPN 7 HD
-http://8.243.126.131:8000/play/a065/index.m3u8
-#EXTINF:-1 group-title="ESPN",81-ESPN 5 HD
-http://8.243.126.131:8000/play/a0jz/index.m3u8
-#EXTINF:-1 group-title="Матч",МАТЧ
-http://95.47.155.244:8001/play/a003
-#EXTINF:-1 group-title="Матч",МАТЧ ТВ
-http://85.192.10.131/hls/matchtvrum9/playlist.m3u8
+#EXTINF:-1 group-title="Матч",МАТЧ БОЕЦ
+http://91.205.196.7:8000/play/a02s
 #EXTINF:-1 group-title="Матч",МАТЧ ТВ
 https://streaming.televizor-24-tochka.ru/live/6-req_offset_28000000-req_window_0-1k_v5.m3u8
 #EXTINF:-1 group-title="Матч",МАТЧ HD
 http://tv.ttk.mx:9094
 #EXTINF:-1 group-title="Матч",Матч!
-http://168.119.58.242:80/play/f_BX1L0-rdInVewZIDjlt1r13YWOgoB-XLkUDwcqNl0/ts
+http://bl.video.matchtv.ru/media/playlist/free_d46d0cf1712c0542ec7fd4f0808f600a_hd/17_89756005/1080/e6bef86de8a133cd7b27deb040758a00/4796141934.m3u8
 #EXTINF:-1 group-title="Матч",Матч!
-http://168.119.58.242:80/play/f_BX1L0-rdInVewZIDjlt9RZnaLj17zJKPUYfmBB6PU/ts
+http://31.148.5.241/kanal_3/index.m3u8
 #EXTINF:-1 group-title="Матч",Матч!
-http://catchup.videoline.ru/match/tracks-v1a1/mono.m3u8
+http://45.132.87.69:8080/match/index.m3u8
+#EXTINF:-1 group-title="Матч",Матч!
+http://95.47.155.244:8001/play/a003
+#EXTINF:-1 group-title="Матч",Матч!
+http://77.37.224.102:4022/udp/225.77.225.103:5000
+#EXTINF:-1 group-title="Матч",Матч!
+http://77.37.224.102:4022/udp/225.77.32.157:5000
 #EXTINF:-1 group-title="Матч",Матч! Арена
-http://168.119.58.242:80/play/f_BX1L0-rdInVewZIDjlt---ReM_ZvPVxlPaSdPVG5M/ts
-#EXTINF:-1 group-title="Матч",Матч! Арена
-http://168.119.58.242:80/play/f_BX1L0-rdInVewZIDjlt6lKI0Y16tUSw1MTyZtClrA/ts
-#EXTINF:-1 group-title="Матч",Матч! Арена
-http://168.119.58.242:80/play/f_BX1L0-rdInVewZIDjlt6qgR97rvq63vB4P__2WKOA/ts
-#EXTINF:-1 group-title="Матч",Матч! Арена
-http://168.119.58.242:80/play/f_BX1L0-rdInVewZIDjltzkVzxJ9J0TdNGxtJlOgfOg/ts
-#EXTINF:-1 group-title="Матч",Матч! Арена
-http://62.32.84.50:18000/play/a0m1/index.m3u8
+http://195.64.140.147:10096/96
 #EXTINF:-1 group-title="Матч",Матч! Арена
 http://87.120.142.11:18000/Match!Arena
 #EXTINF:-1 group-title="Матч",Матч! Арена
@@ -44,199 +26,97 @@ http://185.46.16.239:8000/Match_Arena
 #EXTINF:-1 group-title="Матч",Матч! Арена
 http://31.210.208.171:8080/match_arena/index.m3u8?token=+W2MSER
 #EXTINF:-1 group-title="Матч",Матч! Арена
-http://45.145.32.13:20440/match_arena/index.m3u8?token=test
-#EXTINF:-1 group-title="Матч",Матч! Арена
 http://tv.ttk.mx:9153
 #EXTINF:-1 group-title="Матч",Матч! Арена
 https://flussonic.mkpnet.ru/tv-9dda1dd9d740a9a4/video.m3u8
 #EXTINF:-1 group-title="Матч",Матч! Арена
-http://94.228.166.20:8000/play/a06g/index.m3u8
+http://85.117.61.97:8000/play/a04z/index.m3u8
 #EXTINF:-1 group-title="Матч",Матч! Арена
 http://stream.mcquack.net/163/index.m3u8
-#EXTINF:-1 group-title="Матч",Матч! Арена (720p)
-http://31.148.48.15/Match_Arena_HD/index.m3u8
 #EXTINF:-1 group-title="Матч",Матч! Арена HD
-http://168.119.58.242:80/play/f_BX1L0-rdInVewZIDjlt9e0YZ-lchWiHW3lKwQTU1k/ts
-#EXTINF:-1 group-title="Матч",Матч! Арена HD
-http://46.32.176.50/MatchArenaHD/index.m3u8
-#EXTINF:-1 group-title="Матч",Матч! Арена HD
-http://45.145.32.13:20440/match_arena_hd/index.m3u8?token=test
-#EXTINF:-1 group-title="Матч",Матч! Арена HD
-http://95.181.17.26/dvr02/hd1/sport1HD/playlist.m3u8?&wmsAuthSign=c2VydmVyX3RpbWU9Ny8yOC8yMDI2IDY6NTU6MDcgQU0maGFzaF92YWx1ZT1rZmxKWm5ReDlDS2Y1WElXWGNGSjJRPT0mdmFsaWRtaW51dGVzPTcyMCZpZD03Nzc=
-#EXTINF:-1 group-title="Матч",Матч! Арена HD
-http://pars01.com:8080/play/live.php?mac=00:1A:79:4D:00:7C&stream=529572&extension=ts
-#EXTINF:-1 group-title="Матч",Матч! Арена HD
-http://94.228.166.20:8000/play/a060/index.m3u8
-#EXTINF:-1 group-title="Матч",Матч! БОЕЦ
-http://168.119.58.242:80/play/f_BX1L0-rdInVewZIDjlt6R_EQ-GkfTuRG4kuvNxDiE/ts
-#EXTINF:-1 group-title="Матч",Матч! Боец
-http://168.119.58.242:80/play/f_BX1L0-rdInVewZIDjlt34Zc09Lc_mgpeElK34EjX8/ts
-#EXTINF:-1 group-title="Матч",Матч! Боец
-http://62.32.84.50:18000/play/a0m0/index.m3u8
+http://95.181.17.26/dvr02/hd1/sport1HD/playlist.m3u8?&wmsAuthSign=c2VydmVyX3RpbWU9MTEvMjIvMjAyNiA4OjI3OjM3IEFNJmhhc2hfdmFsdWU9ME04VzNoajN2WFhENG5JNlNuYXQ0UT09JnZhbGlkbWludXRlcz03MjAmaWQ9Nzc3
 #EXTINF:-1 group-title="Матч",Матч! БОЕЦ
 http://87.120.142.11:18000/Match!
 #EXTINF:-1 group-title="Матч",Матч! Боец
-http://46.32.176.50/boets/index.m3u8
+http://195.64.140.147:10097/97
 #EXTINF:-1 group-title="Матч",Матч! БОЕЦ
 http://tv.ttk.mx:9107
 #EXTINF:-1 group-title="Матч",Матч! Боец
 http://31.210.208.171:8080/match_boec/index.m3u8?token=+W2MSER
 #EXTINF:-1 group-title="Матч",Матч! Боец
-http://45.145.32.13:20440/match_boets/index.m3u8?token=test
-#EXTINF:-1 group-title="Матч",Матч! Боец
-http://api.peers.tv/timeshift/boets/16/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhY2Nlc3MiLCJleHAiOjE3ODUzMDgxMDYsImlhdCI6MTc4NTIyMTcwNiwiY2lkIjo2LCJ1aWQiOjEwNzE1OTQ3OTQsInJlZyI6ZmFsc2UsImlwIjozNzQ2MjUyNCwiYWR1bHQiOmZhbHNlfQ.FvYxZxORlM70UXyX_p5LfvFVCVMrQNkk6jhM3pgtYow&offset=10
-#EXTINF:-1 group-title="Матч",Матч! Боец
-http://arbiter.bolshoe.tv/?path=abr1/boets/71/copy/playlist.m3u8&wmsAuthSign=c2VydmVyX3RpbWU9Ny8yOC8yMDI2IDY6NTU6MDcgQU0maGFzaF92YWx1ZT1rZmxKWm5ReDlDS2Y1WElXWGNGSjJRPT0mdmFsaWRtaW51dGVzPTcyMCZpZD03Nzc=
-#EXTINF:-1 group-title="Матч",Матч! Боец
-http://api.peers.tv/timeshift/boets/16/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhY2Nlc3MiLCJleHAiOjE3ODUwMDU2MTYsImlhdCI6MTc4NDkxOTIxNiwiY2lkIjo2LCJ1aWQiOjEwNzAwOTUzMjcsInJlZyI6ZmFsc2UsImlwIjozNzQ2MjUyNCwiYWR1bHQiOmZhbHNlfQ.KeDdVfGMbSwXokW9xU-DsL2u0F72LKoDmjkyZsd22VQ&offset=10
-#EXTINF:-1 group-title="Матч",Матч! Боец
-http://pars01.com:8080/play/live.php?mac=00:1A:79:4D:00:7C&stream=529588&extension=ts
-#EXTINF:-1 group-title="Матч",Матч! БОЕЦ
-http://94.228.166.20:8000/play/a06h/index.m3u8
+http://arbiter.bolshoe.tv/?path=abr1/boets/71/copy/playlist.m3u8&wmsAuthSign=c2VydmVyX3RpbWU9MTEvMjIvMjAyNiA4OjI3OjM3IEFNJmhhc2hfdmFsdWU9ME04VzNoajN2WFhENG5JNlNuYXQ0UT09JnZhbGlkbWludXRlcz03MjAmaWQ9Nzc3
 #EXTINF:-1 group-title="Матч",Матч! Боец
 http://stream.mcquack.net/112/index.m3u8
-#EXTINF:-1 group-title="Матч",Матч! Боец HD
-http://pars01.com:8080/play/live.php?mac=00:1A:79:4D:00:7C&stream=529582&extension=ts
-#EXTINF:-1 group-title="Матч",Матч! БОЕЦ HD
-http://94.228.166.20:8000/play/a030/index.m3u8
-#EXTINF:-1 group-title="Матч",Матч! Игра
-http://168.119.58.242:80/play/f_BX1L0-rdInVewZIDjlt29ZVENcLDAdNCO0aRhZfIk/ts
-#EXTINF:-1 group-title="Матч",Матч! Игра
-http://168.119.58.242:80/play/f_BX1L0-rdInVewZIDjlt34RUONEEDFZ4bgjszGlADM/ts
-#EXTINF:-1 group-title="Матч",Матч! Игра
-http://168.119.58.242:80/play/f_BX1L0-rdInVewZIDjlt7hhB3N37KpN0tUURTbL7bo/ts
-#EXTINF:-1 group-title="Матч",Матч! Игра
-http://46.32.176.50/matchiqra/index.m3u8
 #EXTINF:-1 group-title="Матч",Матч! Игра
 http://87.120.142.11:18000/Match!Igra
 #EXTINF:-1 group-title="Матч",Матч! Игра
 http://185.46.16.239:8000/Match_Igra
 #EXTINF:-1 group-title="Матч",Матч! Игра
-http://45.145.32.13:20440/match_igra/index.m3u8?token=test
-#EXTINF:-1 group-title="Матч",Матч! Игра
-http://api.peers.tv/timeshift/sport_2/16/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhY2Nlc3MiLCJleHAiOjE3ODUzMDgxMDYsImlhdCI6MTc4NTIyMTcwNiwiY2lkIjo2LCJ1aWQiOjEwNzE1OTQ3OTQsInJlZyI6ZmFsc2UsImlwIjozNzQ2MjUyNCwiYWR1bHQiOmZhbHNlfQ.FvYxZxORlM70UXyX_p5LfvFVCVMrQNkk6jhM3pgtYow&offset=10
-#EXTINF:-1 group-title="Матч",Матч! Игра
 http://tv.ttk.mx:9152
 #EXTINF:-1 group-title="Матч",Матч! Игра
 https://flussonic.mkpnet.ru/tv-1bfac9df3d938c1f/video.m3u8
-#EXTINF:-1 group-title="Матч",Матч! ИГРА
-http://94.228.166.20:8000/play/a06i/index.m3u8
+#EXTINF:-1 group-title="Матч",Матч! Игра
+http://185.37.150.38/test/index.m3u8
 #EXTINF:-1 group-title="Матч",Матч! ИГРА
 http://31.210.208.171:8080/match_igra/index.m3u8?token=+W2MSER
 #EXTINF:-1 group-title="Матч",Матч! Игра
 http://stream.mcquack.net/188/index.m3u8
-#EXTINF:-1 group-title="Матч",Матч! Игра (720p)
-http://31.148.48.15/Match_Igra_HD/index.m3u8
 #EXTINF:-1 group-title="Матч",Матч! Игра HD
-http://45.145.32.13:20440/match_igra_hd/index.m3u8?token=test
-#EXTINF:-1 group-title="Матч",Матч! Игра HD
-http://arbiter.bolshoe.tv/?path=abr2/sport2HD/71/copy/playlist.m3u8&wmsAuthSign=c2VydmVyX3RpbWU9Ny8yOC8yMDI2IDY6NTU6MDcgQU0maGFzaF92YWx1ZT1rZmxKWm5ReDlDS2Y1WElXWGNGSjJRPT0mdmFsaWRtaW51dGVzPTcyMCZpZD03Nzc=
-#EXTINF:-1 group-title="Матч",Матч! Игра HD
-http://pars01.com:8080/play/live.php?mac=00:1A:79:4D:00:7C&stream=529581&extension=ts
-#EXTINF:-1 group-title="Матч",Матч! ИГРА HD
-http://94.228.166.20:8000/play/a061/index.m3u8
+http://arbiter.bolshoe.tv/?path=abr2/sport2HD/71/copy/playlist.m3u8&wmsAuthSign=c2VydmVyX3RpbWU9MTEvMjIvMjAyNiA4OjI3OjM3IEFNJmhhc2hfdmFsdWU9ME04VzNoajN2WFhENG5JNlNuYXQ0UT09JnZhbGlkbWludXRlcz03MjAmaWQ9Nzc3
 #EXTINF:-1 group-title="Матч",Матч! Планета
-http://168.119.58.242:80/play/f_BX1L0-rdInVewZIDjlt7ijmCnKVfPPn2NAQgNc4yA/ts
+http://195.64.140.147:10104/104
 #EXTINF:-1 group-title="Матч",Матч! Планета
-http://168.119.58.242:80/play/f_BX1L0-rdInVewZIDjlt_orjrxKdDwELU_iPhfqN7E/ts
+http://hls.stb.md/MATCH_PLANETA_H264/video.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpcCI6IjEwOS4yMDEuMTUyLjE4MSIsIm5iZiI6MTc5NTMzNjIyMSwiZXhwIjoxNzk1NDIyNjIxLCJpYXQiOjE3OTUzMzYyMjEsImlzcyI6InN0Yi5zdGFybmV0Lm1kIn0.gSJc7aZKNEZB3lryqyllqDaTFTT62DHfFZDF97YfIMY
 #EXTINF:-1 group-title="Матч",Матч! Планета
-http://158.101.222.193:88/georgia_play.php?id=matchplaneta
-#EXTINF:-1 group-title="Матч",Матч! Планета
-http://hls.stb.md/MATCH_PLANETA_H264/video.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpcCI6IjEwOS4yMDEuMTUyLjE4MSIsIm5iZiI6MTc4NTIyMTY4NywiZXhwIjoxNzg1MzA4MDg3LCJpYXQiOjE3ODUyMjE2ODcsImlzcyI6InN0Yi5zdGFybmV0Lm1kIn0.BOndD26tTtnXWT939kuJGcT3aYdu9egeNMwZkwNUB58
-#EXTINF:-1 group-title="Матч",Матч! Планета
-http://tinyurl.com/%74%76z%61%74%61k65?id=matchplaneta
+https://fs.uplink.kz/match_planeta/mono.m3u8?token=onlinetv2
 #EXTINF:-1 group-title="Матч",Матч! Планета
 https://stream8.cinerama.uz/1049/tracks-v1a1/mono.m3u8
 #EXTINF:-1 group-title="Матч",Матч! Планета
-http://37.186.70.39:40/play/83/index.m3u8
-#EXTINF:-1 group-title="Матч",Матч! Премьер
-http://168.119.58.242:80/play/f_BX1L0-rdInVewZIDjlt5r8y2qyq-IM3OmCKSuP67w/ts
-#EXTINF:-1 group-title="Матч",Матч! Премьер
-http://168.119.58.242:80/play/f_BX1L0-rdInVewZIDjlt_lmp6FUpqxlKwOrT_esQsA/ts
+http://91.205.196.7:8000/play/a02u
 #EXTINF:-1 group-title="Матч",Матч! Премьер
 https://flussonic.mkpnet.ru/tv-ee3651e1e7ce5cbf/video.m3u8
 #EXTINF:-1 group-title="Матч",Матч! Премьер
-http://62.32.84.50:18000/play/a0kh/index.m3u8
+http://185.23.80.23:8080/MATCH_PREMIER/index.m3u8
 #EXTINF:-1 group-title="Матч",Матч! Премьер
 http://tv.ttk.mx:10000
 #EXTINF:-1 group-title="Матч",Матч! Премьер
-http://94.228.166.20:8000/play/a06t/index.m3u8
-#EXTINF:-1 group-title="Матч",Матч! Премьер
 http://stream.mcquack.net/193/index.m3u8
 #EXTINF:-1 group-title="Матч",Матч! Премьер HD
-http://95.181.17.26/dvr01/hd1/NashFutHD/chunks.m3u8?&&wmsAuthSign=c2VydmVyX3RpbWU9Ny8yOC8yMDI2IDY6NTU6MDcgQU0maGFzaF92YWx1ZT1rZmxKWm5ReDlDS2Y1WElXWGNGSjJRPT0mdmFsaWRtaW51dGVzPTcyMCZpZD03Nzc=
+http://195.64.140.147:10103/99103
 #EXTINF:-1 group-title="Матч",Матч! Премьер HD
-http://pars01.com:8080/play/live.php?mac=00:1A:79:4D:00:7C&stream=529586&extension=ts
-#EXTINF:-1 group-title="Матч",Матч! Премьер HD
-http://94.228.166.20:8000/play/a02y/index.m3u8
+http://95.181.17.26/dvr01/hd1/NashFutHD/chunks.m3u8?&&wmsAuthSign=c2VydmVyX3RpbWU9MTEvMjIvMjAyNiA4OjI3OjM3IEFNJmhhc2hfdmFsdWU9ME04VzNoajN2WFhENG5JNlNuYXQ0UT09JnZhbGlkbWludXRlcz03MjAmaWQ9Nzc3
 #EXTINF:-1 group-title="Матч",Матч! Страна
-http://168.119.58.242:80/play/f_BX1L0-rdInVewZIDjlt-4HCQDvu4ZrNtgtE6kau9o/ts
-#EXTINF:-1 group-title="Матч",Матч! Страна
-http://168.119.58.242:80/play/f_BX1L0-rdInVewZIDjlt1JxsTPen_9-JsUhhbrWkLQ/ts
-#EXTINF:-1 group-title="Матч",Матч! Страна
-http://168.119.58.242:80/play/f_BX1L0-rdInVewZIDjlt4UrfSFPK6XWJW8Vl93G6uk/ts
-#EXTINF:-1 group-title="Матч",Матч! Страна
-http://168.119.58.242:80/play/f_BX1L0-rdInVewZIDjlt52lSMcmMpAG_pUfT1y64pM/ts
-#EXTINF:-1 group-title="Матч",Матч! Страна
-http://168.119.58.242:80/play/f_BX1L0-rdInVewZIDjlt8iGBpCj8WK2wxdqm3Vxf4s/ts
-#EXTINF:-1 group-title="Матч",Матч! Страна
-http://62.32.84.50:18000/play/a0m2/index.m3u8
+http://195.64.140.147:10099/99
 #EXTINF:-1 group-title="Матч",Матч! Страна
 http://185.46.16.239:8000/Match_Nash_Sport
 #EXTINF:-1 group-title="Матч",Матч! Страна
 http://31.210.208.171:8080/match_strana/index.m3u8?token=+W2MSER
 #EXTINF:-1 group-title="Матч",Матч! Страна
-http://45.145.32.13:20440/match_strana/index.m3u8?token=test
-#EXTINF:-1 group-title="Матч",Матч! Страна
 http://tv.ttk.mx:9154
-#EXTINF:-1 group-title="Матч",Матч! Страна
-http://ukr.ukrainske.tv/134/keytvainua/video.m3u8
 #EXTINF:-1 group-title="Матч",Матч! Страна
 https://flussonic.mkpnet.ru/tv-6db4f59c21aec361/video.m3u8
 #EXTINF:-1 group-title="Матч",Матч! Страна
-http://pars01.com:8080/play/live.php?mac=00:1A:79:4D:00:7C&stream=529583&extension=ts
-#EXTINF:-1 group-title="Матч",Матч! Страна
-http://94.228.166.20:8000/play/a06j/index.m3u8
-#EXTINF:-1 group-title="Матч",Матч! страна
-http://api.peers.tv/timeshift/match_nash_sport/16/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhY2Nlc3MiLCJleHAiOjE3ODUzMDgxMDYsImlhdCI6MTc4NTIyMTcwNiwiY2lkIjo2LCJ1aWQiOjEwNzE1OTQ3OTQsInJlZyI6ZmFsc2UsImlwIjozNzQ2MjUyNCwiYWR1bHQiOmZhbHNlfQ.FvYxZxORlM70UXyX_p5LfvFVCVMrQNkk6jhM3pgtYow&offset=10
-#EXTINF:-1 group-title="Матч",Матч! страна
-http://api.peers.tv/timeshift/match_nash_sport/16/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhY2Nlc3MiLCJleHAiOjE3ODUwMDU2MTYsImlhdCI6MTc4NDkxOTIxNiwiY2lkIjo2LCJ1aWQiOjEwNzAwOTUzMjcsInJlZyI6ZmFsc2UsImlwIjozNzQ2MjUyNCwiYWR1bHQiOmZhbHNlfQ.KeDdVfGMbSwXokW9xU-DsL2u0F72LKoDmjkyZsd22VQ&offset=10
-#EXTINF:-1 group-title="Матч",Матч! Страна
 http://stream.mcquack.net/143/index.m3u8
+#EXTINF:-1 group-title="Матч",Матч! Страна
+http://85.117.61.97:8000/play/a050/index.m3u8
+#EXTINF:-1 group-title="Матч",Матч! Страна
+http://nl4.iptv.monster/play/134/94447FD31B88A87/video.m3u8
 #EXTINF:-1 group-title="Матч",Матч! Страна HD
-http://95.181.17.18/dvr01/sd2/ntvsport/playlist.m3u8?&wmsAuthSign=c2VydmVyX3RpbWU9Ny8yOC8yMDI2IDY6NTU6MDcgQU0maGFzaF92YWx1ZT1rZmxKWm5ReDlDS2Y1WElXWGNGSjJRPT0mdmFsaWRtaW51dGVzPTcyMCZpZD03Nzc=
+http://95.181.17.18/dvr01/sd2/ntvsport/playlist.m3u8?&wmsAuthSign=c2VydmVyX3RpbWU9MTEvMjIvMjAyNiA4OjI3OjM3IEFNJmhhc2hfdmFsdWU9ME04VzNoajN2WFhENG5JNlNuYXQ0UT09JnZhbGlkbWludXRlcz03MjAmaWQ9Nzc3
 #EXTINF:-1 group-title="Матч",Матч! Страна HD
 http://31.148.48.15/Match_Strana/index.m3u8
-#EXTINF:-1 group-title="Матч",Матч! Страна HD
-http://94.228.166.20:8000/play/a062/index.m3u8
-#EXTINF:-1 group-title="Матч",Матч! ТВ
-http://168.119.58.242:80/play/f_BX1L0-rdInVewZIDjlt-vDN5FFI2zdYPLLzJNd8go/ts
-#EXTINF:-1 group-title="Матч",Матч! ТВ
-http://168.119.58.242:80/play/f_BX1L0-rdInVewZIDjlt1jHHFpVOzRaUEvY5UPcUIk/ts
-#EXTINF:-1 group-title="Матч",Матч! ТВ
-http://168.119.58.242:80/play/f_BX1L0-rdInVewZIDjlt28Nezz_oHk6P9nN9qVR3Uk/ts
-#EXTINF:-1 group-title="Матч",Матч! ТВ
-http://168.119.58.242:80/play/f_BX1L0-rdInVewZIDjlt44Zh1VL3riZfT-W850RYjw/ts
-#EXTINF:-1 group-title="Матч",Матч! ТВ
-http://168.119.58.242:80/play/f_BX1L0-rdInVewZIDjltxrLjq4pkXSDrCQ4NShwfcM/ts
 #EXTINF:-1 group-title="Матч",Матч! ТВ
 https://bl.rutube.ru/livestream/11bbbec75a2ceb8cf446ad16813c6eec/index.m3u8?s=UgevADJNNWBFOqad7wr5Ug&e=2071401301&scheme=https
 #EXTINF:-1 group-title="Матч",Матч! ТВ
-http://46.32.176.50/matchtv/index.m3u8
+http://195.64.140.147:10003/993
 #EXTINF:-1 group-title="Матч",Матч! ТВ
 http://185.46.16.239:8000/Match_TV
 #EXTINF:-1 group-title="Матч",Матч! ТВ
 http://31.131.141.195:8000/play/1030/index.m3u8
 #EXTINF:-1 group-title="Матч",Матч! ТВ
-http://45.132.87.69:8080/match/index.m3u8
-#EXTINF:-1 group-title="Матч",Матч! ТВ
-http://45.145.32.13:20440/match/index.m3u8?token=test
-#EXTINF:-1 group-title="Матч",Матч! ТВ
 http://5.188.221.43:8080/play/match
 #EXTINF:-1 group-title="Матч",Матч! ТВ
-http://95.181.17.26/dvr02/sd2/sport/chunks.m3u8?&wmsAuthSign=c2VydmVyX3RpbWU9Ny8yOC8yMDI2IDY6NTU6MDcgQU0maGFzaF92YWx1ZT1rZmxKWm5ReDlDS2Y1WElXWGNGSjJRPT0mdmFsaWRtaW51dGVzPTcyMCZpZD03Nzc=
-#EXTINF:-1 group-title="Матч",Матч! ТВ
-http://hls127.freeott.top:8080/MATCH_TV/mono.m3u8
+http://95.181.17.26/dvr02/sd2/sport/chunks.m3u8?&wmsAuthSign=c2VydmVyX3RpbWU9MTEvMjIvMjAyNiA4OjI3OjM3IEFNJmhhc2hfdmFsdWU9ME04VzNoajN2WFhENG5JNlNuYXQ0UT09JnZhbGlkbWludXRlcz03MjAmaWQ9Nzc3
 #EXTINF:-1 group-title="Матч",Матч! ТВ
 http://tv.ttk.mx:9002
 #EXTINF:-1 group-title="Матч",Матч! ТВ
@@ -244,723 +124,353 @@ http://tv.tuva.ru/machtv/index.m3u8
 #EXTINF:-1 group-title="Матч",Матч! ТВ
 https://flussonic.mkpnet.ru/tv-d3098523a4409835/video.m3u8
 #EXTINF:-1 group-title="Матч",Матч! ТВ
-https://mhd116.iptv2022.com/x/bt8dSGTapxTu3AfXTeM0PA,1785308105/streaming/matchott/324/5/index.m3u8
+https://fs.uplink.kz/match/mono.m3u8?token=onlinetv2
 #EXTINF:-1 group-title="Матч",Матч! ТВ
 http://stream.mcquack.net/169/index.m3u8
 #EXTINF:-1 group-title="Матч",Матч! ТВ
-http://hls127.freeott.top:8080/MATCH_TV/video.m3u8
-#EXTINF:-1 group-title="Матч",Матч! ТВ
 http://176.118.197.125/Match/index.m3u8
 #EXTINF:-1 group-title="Матч",Матч! ТВ HD
-http://168.119.58.242:80/play/f_BX1L0-rdInVewZIDjlt254E9ataGqVXvrlPc--tVc/ts
+http://arbiter.bolshoe.tv/?path=abr2/match_tv_hd/71/copy/playlist.m3u8&wmsAuthSign=c2VydmVyX3RpbWU9MTEvMjIvMjAyNiA4OjI3OjM3IEFNJmhhc2hfdmFsdWU9ME04VzNoajN2WFhENG5JNlNuYXQ0UT09JnZhbGlkbWludXRlcz03MjAmaWQ9Nzc3
 #EXTINF:-1 group-title="Матч",Матч! ТВ HD
-http://arbiter.bolshoe.tv/?path=abr2/match_tv_hd/71/copy/playlist.m3u8&wmsAuthSign=c2VydmVyX3RpbWU9Ny8yOC8yMDI2IDY6NTU6MDcgQU0maGFzaF92YWx1ZT1rZmxKWm5ReDlDS2Y1WElXWGNGSjJRPT0mdmFsaWRtaW51dGVzPTcyMCZpZD03Nzc=
-#EXTINF:-1 group-title="Матч",Матч! ТВ HD
-https://bl.rutube.ru/livestream/11bbbec75a2ceb8cf446ad16813c6eec/index.m3u8?s=y7nXOalMNdsp8QPsgVL9Ag&e=2085221831&scheme=https
+https://bl.rutube.ru/livestream/11bbbec75a2ceb8cf446ad16813c6eec/index.m3u8?s=M91unWE-u6mHsuXGxFI1XQ&e=2095336192&scheme=https
 #EXTINF:-1 group-title="Матч",Матч! ТВ HD
 https://bl.video.matchtv.ru/media/playlist/free_d46d0cf1712c0542ec7fd4f0808f600a_hd/17_89756005/1080/e6bef86de8a133cd7b27deb040758a00/4796141934.m3u8
-#EXTINF:-1 group-title="Матч",Матч! ТВ HD
-http://62.32.84.50:18000/play/a0mc/index.m3u8
 #EXTINF:-1 group-title="Матч",Матч! Футбол 1
-http://168.119.58.242:80/play/f_BX1L0-rdInVewZIDjlt0mUsYoIdPhYNXeiN24ovyI/ts
-#EXTINF:-1 group-title="Матч",Матч! Футбол 1
-http://168.119.58.242:80/play/f_BX1L0-rdInVewZIDjltzEj4w5_PQMn25_Ht8rNLss/ts
-#EXTINF:-1 group-title="Матч",Матч! Футбол 1
-http://45.145.32.13:20440/match_football1/index.m3u8?token=test
-#EXTINF:-1 group-title="Матч",Матч! Футбол 1
-http://37.186.70.39:40/play/81/index.m3u8
-#EXTINF:-1 group-title="Матч",Матч! Футбол 1
-http://94.228.166.20:8000/play/a06k/index.m3u8
+http://31.148.5.241/Match_Football_1_HD/index.m3u8
 #EXTINF:-1 group-title="Матч",Матч! футбол 1
 http://tv.ttk.mx:9108
 #EXTINF:-1 group-title="Матч",Матч! Футбол 1
 http://stream.mcquack.net/130/index.m3u8
 #EXTINF:-1 group-title="Матч",Матч! Футбол 1 HD
-http://168.119.58.242:80/play/f_BX1L0-rdInVewZIDjlt5mSQN7cmk0HS-wFNDf4tqI/ts
+http://195.64.140.147:10100/100
 #EXTINF:-1 group-title="Матч",Матч! Футбол 1 HD
-http://45.145.32.13:20440/match_futbol_1_hd/index.m3u8?token=test
-#EXTINF:-1 group-title="Матч",Матч! Футбол 1 HD
-http://95.181.17.6/7nvenc/NTVplusfut1HD/71/fhd/chunks.m3u8?&wmsAuthSign=c2VydmVyX3RpbWU9Ny8yOC8yMDI2IDY6NTU6MDcgQU0maGFzaF92YWx1ZT1rZmxKWm5ReDlDS2Y1WElXWGNGSjJRPT0mdmFsaWRtaW51dGVzPTcyMCZpZD03Nzc=
+http://95.181.17.6/7nvenc/NTVplusfut1HD/71/fhd/chunks.m3u8?&wmsAuthSign=c2VydmVyX3RpbWU9MTEvMjIvMjAyNiA4OjI3OjM3IEFNJmhhc2hfdmFsdWU9ME04VzNoajN2WFhENG5JNlNuYXQ0UT09JnZhbGlkbWludXRlcz03MjAmaWQ9Nzc3
 #EXTINF:-1 group-title="Матч",Матч! Футбол 1 HD
 http://tv.ttk.mx:9114
 #EXTINF:-1 group-title="Матч",Матч! Футбол 1 HD
-http://pars01.com:8080/play/live.php?mac=00:1A:79:4D:00:7C&stream=529575&extension=ts
-#EXTINF:-1 group-title="Матч",Матч! Футбол 1 HD
-http://94.228.166.20:8000/play/a031/index.m3u8
-#EXTINF:-1 group-title="Матч",Матч! Футбол 1 HD 50
-http://31.148.48.15/Match_Futbol_1_HD/index.m3u8
+http://91.205.196.7:8000/play/a02z
 #EXTINF:-1 group-title="Матч",Матч! Футбол 2
-http://168.119.58.242:80/play/f_BX1L0-rdInVewZIDjlt2F_iHrtqPZmZlAtKkboIeE/ts
-#EXTINF:-1 group-title="Матч",Матч! Футбол 2
-http://168.119.58.242:80/play/f_BX1L0-rdInVewZIDjlt7mw94yWfvRjZqiqz3mOscA/ts
-#EXTINF:-1 group-title="Матч",Матч! Футбол 2
-http://45.145.32.13:20440/match_football2/index.m3u8?token=test
-#EXTINF:-1 group-title="Матч",Матч! Футбол 2
-http://37.186.70.39:40/play/82/index.m3u8
-#EXTINF:-1 group-title="Матч",Матч! Футбол 2
-http://94.228.166.20:8000/play/a06l/index.m3u8
+http://31.148.5.241/Match_Football_2_HD/index.m3u8
 #EXTINF:-1 group-title="Матч",Матч! Футбол 2
 http://stream.mcquack.net/142/index.m3u8
 #EXTINF:-1 group-title="Матч",Матч! Футбол 2 HD
-http://168.119.58.242:80/play/f_BX1L0-rdInVewZIDjlt69rvKQLpDUJ0z8p2hTLSNU/ts
+http://195.64.140.147:10101/101
 #EXTINF:-1 group-title="Матч",Матч! Футбол 2 HD
-http://168.119.58.242:80/play/f_BX1L0-rdInVewZIDjlt_LR3aLe0r8YrK4dFfrNas4/ts
-#EXTINF:-1 group-title="Матч",Матч! Футбол 2 HD
-http://45.145.32.13:20440/match_futbol_2_hd/index.m3u8?token=test
-#EXTINF:-1 group-title="Матч",Матч! Футбол 2 HD
-http://arbiter.bolshoe.tv/?path=abr2/NTVplusfut2HD/71/copy/playlist.m3u8&wmsAuthSign=c2VydmVyX3RpbWU9Ny8yOC8yMDI2IDY6NTU6MDcgQU0maGFzaF92YWx1ZT1rZmxKWm5ReDlDS2Y1WElXWGNGSjJRPT0mdmFsaWRtaW51dGVzPTcyMCZpZD03Nzc=
+http://arbiter.bolshoe.tv/?path=abr2/NTVplusfut2HD/71/copy/playlist.m3u8&wmsAuthSign=c2VydmVyX3RpbWU9MTEvMjIvMjAyNiA4OjI3OjM3IEFNJmhhc2hfdmFsdWU9ME04VzNoajN2WFhENG5JNlNuYXQ0UT09JnZhbGlkbWludXRlcz03MjAmaWQ9Nzc3
 #EXTINF:-1 group-title="Матч",Матч! Футбол 2 HD
 http://tv.ttk.mx:9111
 #EXTINF:-1 group-title="Матч",Матч! Футбол 2 HD
-http://31.148.48.15/Match_Futbol_2_HD/index.m3u8
-#EXTINF:-1 group-title="Матч",Матч! Футбол 2 HD
-http://94.228.166.20:8000/play/a02w/index.m3u8
-#EXTINF:-1 group-title="Матч",Матч! Футбол 2 HD 50fps
-http://pars01.com:8080/play/live.php?mac=00:1A:79:4D:00:7C&stream=529577&extension=ts
-#EXTINF:-1 group-title="Матч",Матч! Футбол 3
-http://168.119.58.242:80/play/f_BX1L0-rdInVewZIDjlt-GO4tQLH6DY7WBVFOFnrXA/ts
-#EXTINF:-1 group-title="Матч",Матч! Футбол 3
-http://168.119.58.242:80/play/f_BX1L0-rdInVewZIDjlt1BKlcaLMjXHrnnFXxDmaW4/ts
-#EXTINF:-1 group-title="Матч",Матч! Футбол 3
-http://168.119.58.242:80/play/f_BX1L0-rdInVewZIDjlt1miQt18HoAItyGKdR8zfWM/ts
-#EXTINF:-1 group-title="Матч",Матч! Футбол 3
-http://168.119.58.242:80/play/f_BX1L0-rdInVewZIDjlt2dAd2xU_7L65N0ECMYE1lo/ts
-#EXTINF:-1 group-title="Матч",Матч! Футбол 3
-http://168.119.58.242:80/play/f_BX1L0-rdInVewZIDjlt4qtyk2jikaJFJB8Of3CCkc/ts
-#EXTINF:-1 group-title="Матч",Матч! Футбол 3
-http://168.119.58.242:80/play/f_BX1L0-rdInVewZIDjlt58EKDvNdaH9i6AWt6-zPOw/ts
-#EXTINF:-1 group-title="Матч",Матч! Футбол 3
-http://168.119.58.242:80/play/f_BX1L0-rdInVewZIDjlt6mWntJ6Y6S_RslgwJYNG9g/ts
+http://91.205.196.7:8000/play/a030
 #EXTINF:-1 group-title="Матч",Матч! Футбол 3
 http://185.57.68.33/110/mpegts
 #EXTINF:-1 group-title="Матч",Матч! Футбол 3
-http://45.145.32.13:20440/match_football3/index.m3u8?token=test
+http://31.148.5.241/Match_Football_3_HD/index.m3u8
 #EXTINF:-1 group-title="Матч",Матч! Футбол 3
 http://tv.ttk.mx:9112
 #EXTINF:-1 group-title="Матч",Матч! Футбол 3
-http://37.186.70.39:40/play/92/index.m3u8
-#EXTINF:-1 group-title="Матч",Матч! Футбол 3
-http://94.228.166.20:8000/play/a06m/index.m3u8
-#EXTINF:-1 group-title="Матч",Матч! футбол 3
-http://185.57.68.33/110/index.m3u8
-#EXTINF:-1 group-title="Матч",Матч! Футбол 3
 http://stream.mcquack.net/185/index.m3u8
 #EXTINF:-1 group-title="Матч",Матч! Футбол 3 HD
-http://168.119.58.242:80/play/f_BX1L0-rdInVewZIDjlt5V2XBhns1Mzu0HphXSVH4M/ts
+http://195.64.140.147:10102/102
 #EXTINF:-1 group-title="Матч",Матч! Футбол 3 HD
-http://45.145.32.13:20440/match_futbol_3_hd/index.m3u8?token=test
-#EXTINF:-1 group-title="Матч",Матч! Футбол 3 HD
-http://95.181.17.18/dvr01/sd2/NTVplusfut3HD/playlist.m3u8?&wmsAuthSign=c2VydmVyX3RpbWU9Ny8yOC8yMDI2IDY6NTU6MDcgQU0maGFzaF92YWx1ZT1rZmxKWm5ReDlDS2Y1WElXWGNGSjJRPT0mdmFsaWRtaW51dGVzPTcyMCZpZD03Nzc=
+http://95.181.17.18/dvr01/sd2/NTVplusfut3HD/playlist.m3u8?&wmsAuthSign=c2VydmVyX3RpbWU9MTEvMjIvMjAyNiA4OjI3OjM3IEFNJmhhc2hfdmFsdWU9ME04VzNoajN2WFhENG5JNlNuYXQ0UT09JnZhbGlkbWludXRlcz03MjAmaWQ9Nzc3
 #EXTINF:-1 group-title="Матч",Матч! Футбол 3 HD
 http://tv.ttk.mx:9116
 #EXTINF:-1 group-title="Матч",Матч! Футбол 3 HD
-http://31.148.48.15/Match_Futbol_3_HD/index.m3u8
-#EXTINF:-1 group-title="Матч",Матч! Футбол 3 HD
-http://94.228.166.20:8000/play/a02x/index.m3u8
-#EXTINF:-1 group-title="Матч",Матч! Футбол 3 HD 50fps
-http://pars01.com:8080/play/live.php?mac=00:1A:79:4D:00:7C&stream=529590&extension=ts
+http://176.100.46.245:90/matchfootball3/index.m3u8
 #EXTINF:-1 group-title="Матч",Матч! HD
-http://168.119.58.242:80/play/f_BX1L0-rdInVewZIDjlt-3t0X7_8tWeDtdiAzGk9z0/ts
+http://195.64.140.147:10105/105
 #EXTINF:-1 group-title="Матч",Матч! HD
-http://168.119.58.242:80/play/f_BX1L0-rdInVewZIDjlt14-uJpNwf6OZa0CBUU26Zo/ts
-#EXTINF:-1 group-title="Матч",Матч! HD
-http://46.32.176.50/MatchTVHD/index.m3u8
-#EXTINF:-1 group-title="Матч",Матч! HD
-http://bl.video.matchtv.ru/media/playlist/free_d46d0cf1712c0542ec7fd4f0808f600a_hd/17_89756005/1080/e6bef86de8a133cd7b27deb040758a00/4796141934.m3u8
-#EXTINF:-1 group-title="Матч",Матч! HD
-http://45.145.32.13:20440/match_hd/index.m3u8?token=test
-#EXTINF:-1 group-title="Матч",Матч! HD
-https://livetv.mylifeisgood.net.ru/channels/matchhd_nocensored.m3u8
-#EXTINF:-1 group-title="Матч",Матч! HD
-http://pars01.com:8080/play/live.php?mac=00:1A:79:4D:00:7C&stream=529584&extension=ts
-#EXTINF:-1 group-title="Матч",Матч! HD
-http://94.228.166.20:8000/play/a063/index.m3u8
-#EXTINF:-1 group-title="Окко",Окко Прайм Спорт HD
-http://168.119.58.242:80/play/f_BX1L0-rdInVewZIDjltzDcQGLYTsyBiVviqNu2giI/ts
+http://live-mirror-01.ott.tricolor.tv/live/live/match/hls_enc/match-avc1_2000000=10004_mp4a_59200_rus=20000.m3u8?drmreq=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhcHBfdHlwZSI6ImFwdHBfb3R0IiwiY2xhc3MiOiJCUk9XU0VSIiwiZHJlaWQiOiI1MjA0MDkwNTk0OTM0NSIsImV4cCI6MTc5NTUwNTc2MiwiaHdpZCI6ImYxY2I2OGZiZDVjMzI5NTA3ZGQ1ZjE2M2MzMjlkMjYyMDNhYmViZTc0M2YyOTc4ZmYwZDM2ZmRlMmJhMjE0ZGEiLCJsYXN0X3JlcV9kYXRlIjoxNzk0OTAwOTYyLCJzZXNzaW9uX2lkIjoiMTFkNjEyZDQ4OTA5MjgwYWM0NDNlNjlkNjU1NjAzMjUiLCJ0b2tlbl90eXBlIjoiQ29udGVudEFjY2Vzc1Rva2VuIiwidHlwZSI6Ik1PWklMTEEifQ.q-Bk4s0MkJcW9OVTzoXMd3HCiR5eqy6mrjpuxeCzuF4
 #EXTINF:-1 group-title="Окко",Окко Прайм Спорт HD
 http://de.russkoe-iptv.com:8080/s/rcy9uell/okko-sport2-hd.m3u8
-#EXTINF:-1 group-title="Окко",Окко Спорт 2
-http://185.221.213.254:8080/Okko/tracks-v1a1/index.m3u8
-#EXTINF:-1 group-title="Окко",Окко Спорт HD
-http://168.119.58.242:80/play/f_BX1L0-rdInVewZIDjlt8IqShv6Sk6eEXn6VS12q2U/ts
-#EXTINF:-1 group-title="Окко",Окко Футбол
-http://168.119.58.242:80/play/f_BX1L0-rdInVewZIDjlt7VhGl-fYYn7ok21-hFYPRE/ts
-#EXTINF:-1 group-title="Окко",Окко Футбол HD
-http://168.119.58.242:80/play/f_BX1L0-rdInVewZIDjlt92DVGnCwcSljT2iG79JeGs/ts
 #EXTINF:-1 group-title="Окко",Окко Футбол HD
 http://de.russkoe-iptv.com:8080/s/rcy9uell/okko-futbol-hd.m3u8
-#EXTINF:-1 group-title="Окко",Окко Футбол HD
-http://c4a6e3d3.megogo.xyz/iptv/YYFY93Y94C6R6GLXEKVZWN2P/6554/index.m3u8
-#EXTINF:-1 group-title="Суспільне Спорт",Суспільне Спорт
-http://ua.online24.pm/play/316/37C481E09158DA0/video.m3u8
 #EXTINF:-1 group-title="Суспільне Спорт",Суспільне Спорт
 http://stream.mcquack.net/444/index.m3u8
-#EXTINF:-1 group-title="Суспільне Спорт",Суспільне Спорт 50Fps
-http://ua.online24.pm/play/15093/37C481E09158DA0/video.m3u8
 #EXTINF:-1 group-title="Суспільне Спорт",Суспільне Спорт HD
-http://de.russkoe-iptv.com:8080/s/rcy9uell/suspilne-sport-ua-hd-orig.m3u8
+http://ru.seetv.cc/play/316/086FB6D765B9406/video.m3u8
 #EXTINF:-1 group-title="Суспільне Спорт",Суспільне Спорт HD
-http://ru.seetv.cc/play/316/F83C2B8A4E1959E/video.m3u8
-#EXTINF:-1 group-title="Arena Sport",Arena Sport 1 HD
-http://168.119.58.242:80/play/f_BX1L0-rdInVewZIDjlt_eq4oQT1duzNJemnhrFSdQ/ts
+http://stream.mcquack.net/439/index.m3u8
+#EXTINF:-1 group-title="Суспільне Спорт",Суспільне Спорт HD UA
+https://live.uspeh.my/8828/video.m3u8?token=EHFHvNjTwqcqsiKN
 #EXTINF:-1 group-title="Arena Sport",Arena Sport 1 HD
 http://178.253.194.79:10006
-#EXTINF:-1 group-title="Arena Sport",Arena Sport 1 HD Serbian
-https://shift03.isp.bg/Arena_Sport_1/index.m3u8
-#EXTINF:-1 group-title="Arena Sport",Arena Sport 1 Premium HD
-http://168.119.58.242:80/play/f_BX1L0-rdInVewZIDjlt9Wvax69m90780W6QvQNYUw/ts
+#EXTINF:-1 group-title="Arena Sport",Arena Sport 1 HD RS
+http://54fytrui.dienalt.org/iptv/LQ6QKXZBKK7RNM/31602/index.m3u8
 #EXTINF:-1 group-title="Arena Sport",Arena Sport 1 Premium HD
 http://178.253.194.79:10001
-#EXTINF:-1 group-title="Arena Sport",Arena Sport 2 HD
-http://168.119.58.242:80/play/f_BX1L0-rdInVewZIDjlt_3yxXfIXEFC_DGNzc_1onw/ts
+#EXTINF:-1 group-title="Arena Sport",Arena Sport 1x2 HD RS
+http://54fytrui.dienalt.org/iptv/LQ6QKXZBKK7RNM/31611/index.m3u8
 #EXTINF:-1 group-title="Arena Sport",Arena Sport 2 HD
 http://178.253.194.79:10007
-#EXTINF:-1 group-title="Arena Sport",Arena Sport 2 HD Serbian
-https://shift03.isp.bg/Arena_Sport_2/index.m3u8
-#EXTINF:-1 group-title="Arena Sport",Arena Sport 2 Premium HD
-http://168.119.58.242:80/play/f_BX1L0-rdInVewZIDjlt5fVuC-VbPqQkEKicPmPtak/ts
 #EXTINF:-1 group-title="Arena Sport",Arena Sport 2 Premium HD
 http://178.253.194.79:10004
 #EXTINF:-1 group-title="Arena Sport",Arena Sport 3 HD
-http://168.119.58.242:80/play/f_BX1L0-rdInVewZIDjltwNnYoEqYRr3oL88YJPcZiI/ts
-#EXTINF:-1 group-title="Arena Sport",Arena Sport 3 HD
 http://178.253.194.79:10008
-#EXTINF:-1 group-title="Arena Sport",Arena Sport 3 HD Serbian
-https://shift04.isp.bg/Arena_Sport_3/index.m3u8
-#EXTINF:-1 group-title="Arena Sport",Arena Sport 3 Premium HD
-http://168.119.58.242:80/play/f_BX1L0-rdInVewZIDjlt7LxGvaqeLbgYI98JDTHq6A/ts
+#EXTINF:-1 group-title="Arena Sport",Arena Sport 3 HD RS
+http://54fytrui.dienalt.org/iptv/LQ6QKXZBKK7RNM/31603/index.m3u8
 #EXTINF:-1 group-title="Arena Sport",Arena Sport 3 Premium HD
 http://178.253.194.79:10005
 #EXTINF:-1 group-title="Arena Sport",Arena Sport 4 HD
-http://168.119.58.242:80/play/f_BX1L0-rdInVewZIDjlt4JgIkwRtVp774_STvudVlM/ts
-#EXTINF:-1 group-title="Arena Sport",Arena Sport 4 HD
 http://178.253.194.79:10009
-#EXTINF:-1 group-title="Arena Sport",Arena Sport 4 HD Serbian
-https://shift03.isp.bg/Arena_Sport_4/index.m3u8
-#EXTINF:-1 group-title="Arena Sport",Arena Sport 4 Premium HD
-http://168.119.58.242:80/play/f_BX1L0-rdInVewZIDjltyQNMunPvEl46CEaUtAYM38/ts
+#EXTINF:-1 group-title="Arena Sport",Arena Sport 4 HD RS
+http://54fytrui.dienalt.org/iptv/LQ6QKXZBKK7RNM/31605/index.m3u8
 #EXTINF:-1 group-title="Arena Sport",Arena Sport 4 Premium HD
 http://178.253.194.79:10016
 #EXTINF:-1 group-title="Arena Sport",Arena Sport 5 HD
-http://168.119.58.242:80/play/f_BX1L0-rdInVewZIDjlt3dEYyzdfZ2WSw6SRW8mLY8/ts
-#EXTINF:-1 group-title="Arena Sport",Arena Sport 5 HD
 http://178.253.194.79:10010
-#EXTINF:-1 group-title="Arena Sport",Arena Sport 5 HD Serbian
-https://shift03.isp.bg/Arena_Sport_5/index.m3u8
-#EXTINF:-1 group-title="Arena Sport",Arena Sport 5 Premium HD
-http://168.119.58.242:80/play/f_BX1L0-rdInVewZIDjlt-GzfJVlHdoSeBZXdvmJR5Y/ts
+#EXTINF:-1 group-title="Arena Sport",Arena Sport 5 HD RS
+http://54fytrui.dienalt.org/iptv/LQ6QKXZBKK7RNM/31606/index.m3u8
 #EXTINF:-1 group-title="Arena Sport",Arena Sport 5 Premium HD
 http://178.253.194.79:10017
 #EXTINF:-1 group-title="Arena Sport",Arena Sport 6 HD
-http://168.119.58.242:80/play/f_BX1L0-rdInVewZIDjltxAazCHMAfZMu7VvEFWTRP0/ts
-#EXTINF:-1 group-title="Arena Sport",Arena Sport 6 HD
 http://178.253.194.79:10011
-#EXTINF:-1 group-title="Arena Sport",Arena Sport 7 HD
-http://168.119.58.242:80/play/f_BX1L0-rdInVewZIDjltwkmiuZsTKIMCJK_xne2yiQ/ts
+#EXTINF:-1 group-title="Arena Sport",Arena Sport 6 HD RS
+http://54fytrui.dienalt.org/iptv/LQ6QKXZBKK7RNM/31607/index.m3u8
 #EXTINF:-1 group-title="Arena Sport",Arena Sport 7 HD
 http://178.253.194.79:10012
-#EXTINF:-1 group-title="Arena Sport",Arena Sport 8 HD
-http://168.119.58.242:80/play/f_BX1L0-rdInVewZIDjlt1zASB7jRazPbCfjC2Itr2E/ts
+#EXTINF:-1 group-title="Arena Sport",Arena Sport 7 HD RS
+http://54fytrui.dienalt.org/iptv/LQ6QKXZBKK7RNM/31608/index.m3u8
 #EXTINF:-1 group-title="Arena Sport",Arena Sport 8 HD
 http://178.253.194.79:10013
-#EXTINF:-1 group-title="BeIN",Bein Sport 1 HD
-http://ua.online24.pm/play/1101/37C481E09158DA0/video.m3u8
-#EXTINF:-1 group-title="BeIN",Bein Sport 2 HD
-http://168.119.58.242:80/play/f_BX1L0-rdInVewZIDjlt8kzhGv0FQArcB937Qe-BQc/ts
+#EXTINF:-1 group-title="Arena Sport",Arena Sport 8 HD RS
+http://54fytrui.dienalt.org/iptv/LQ6QKXZBKK7RNM/31609/index.m3u8
+#EXTINF:-1 group-title="Arena Sport",Arena Sport 9 HD RS
+http://54fytrui.dienalt.org/iptv/LQ6QKXZBKK7RNM/31610/index.m3u8
 #EXTINF:-1 group-title="BeIN",Bein Sport 2 HD
 http://99.27.51.147:8080/BeinSport2/index.m3u8
-#EXTINF:-1 group-title="BeIN",Bein Sport 2 HD
-http://ua.online24.pm/play/1102/37C481E09158DA0/video.m3u8
-#EXTINF:-1 group-title="BeIN",Bein Sport 3 HD
-http://168.119.58.242:80/play/f_BX1L0-rdInVewZIDjlt_h0MDilVmyRB6R-t54GF_k/ts
 #EXTINF:-1 group-title="BeIN",Bein Sport 3 HD
 http://99.27.51.147:8080/BeinSport3/index.m3u8
-#EXTINF:-1 group-title="BeIN",Bein Sport 3 HD
-http://ua.online24.pm/play/1103/37C481E09158DA0/video.m3u8
-#EXTINF:-1 group-title="BeIN",Bein Sport 4 HD
-http://ua.online24.pm/play/1104/37C481E09158DA0/video.m3u8
-#EXTINF:-1 group-title="BeIN",Bein Sport HD
-http://168.119.58.242:80/play/f_BX1L0-rdInVewZIDjlt8RYnKuS3n5gYIeJnbfPQk0/ts
 #EXTINF:-1 group-title="BeIN",Bein Sport HD
 http://99.27.51.147:8080/BeinSport/index.m3u8
 #EXTINF:-1 group-title="BeIN",Bein Sports (MMN HD)
 http://mmn.mypsx.net:1935/live/mmnhdsport/chunklist.m3u8
 #EXTINF:-1 group-title="BeIN",beIN Sports 1 HD Eng
 http://fl1.moveonjoy.com/BEIN_SPORTS/index.m3u8
-#EXTINF:-1 group-title="BeIN",Bein Sports Extra
-http://168.119.58.242:80/play/f_BX1L0-rdInVewZIDjltwqSuIOiDUP8W1528-9Msn0/ts
-#EXTINF:-1 group-title="BeIN",Bein Sports Max 1 HD Ar
-http://168.119.58.242:80/play/f_BX1L0-rdInVewZIDjlt7jyOwJc_426hiL89cJOk4Y/ts
-#EXTINF:-1 group-title="BeIN",Bein Sports Max 2 HD Ar
-http://168.119.58.242:80/play/f_BX1L0-rdInVewZIDjlt7qHjGhqHizunH4YeRZRszo/ts
-#EXTINF:-1 group-title="BeIN",Bein Sports Max 3 HD En
-http://168.119.58.242:80/play/f_BX1L0-rdInVewZIDjltyIbZQuZkl9Y31f7L0shnrk/ts
-#EXTINF:-1 group-title="BeIN",Bein Sports Max 4 HD En
-http://168.119.58.242:80/play/f_BX1L0-rdInVewZIDjlty5yv7ShwWacxrrOjjPhnEk/ts
-#EXTINF:-1 group-title="BeIN",Bein Sports Max 5 HD Fr
-http://168.119.58.242:80/play/f_BX1L0-rdInVewZIDjltwGXgJtusIuPetqWNvO2Fyc/ts
-#EXTINF:-1 group-title="BeIN",Bein Sports Max 6 HD Fr
-http://168.119.58.242:80/play/f_BX1L0-rdInVewZIDjltyo4ipU2mmmrznpDZTShpLw/ts
-#EXTINF:-1 group-title="BeIN",Bein Sports Xtra
-http://168.119.58.242:80/play/f_BX1L0-rdInVewZIDjlt63baG_bkwTJrjBTlIlXhjk/ts
+#EXTINF:-1 group-title="BeIN",beIN Sports 1 HD QA
+http://54fytrui.dienalt.org/iptv/LQ6QKXZBKK7RNM/6123/index.m3u8
+#EXTINF:-1 group-title="BeIN",beIN Sports 3 HD QA
+http://54fytrui.dienalt.org/iptv/LQ6QKXZBKK7RNM/6124/index.m3u8
+#EXTINF:-1 group-title="BeIN",beIN Sports 4 HD QA
+http://54fytrui.dienalt.org/iptv/LQ6QKXZBKK7RNM/6125/index.m3u8
+#EXTINF:-1 group-title="BeIN",beIN Sports 5 HD QA
+http://54fytrui.dienalt.org/iptv/LQ6QKXZBKK7RNM/6126/index.m3u8
+#EXTINF:-1 group-title="BeIN",beIN Sports 6 HD QA
+http://54fytrui.dienalt.org/iptv/LQ6QKXZBKK7RNM/6127/index.m3u8
+#EXTINF:-1 group-title="BeIN",beIN Sports 7 HD QA
+http://54fytrui.dienalt.org/iptv/LQ6QKXZBKK7RNM/6128/index.m3u8
+#EXTINF:-1 group-title="BeIN",beIN Sports Haber HD TR
+http://54fytrui.dienalt.org/iptv/LQ6QKXZBKK7RNM/19064/index.m3u8
+#EXTINF:-1 group-title="BeIN",beIN Sports Max 1 HD TR
+http://54fytrui.dienalt.org/iptv/LQ6QKXZBKK7RNM/19062/index.m3u8
+#EXTINF:-1 group-title="BeIN",beIN Sports Max 2 HD TR
+http://54fytrui.dienalt.org/iptv/LQ6QKXZBKK7RNM/19063/index.m3u8
+#EXTINF:-1 group-title="BeIN",beIN Sports Max 2 HD TR
+http://54fytrui.dienalt.org/iptv/LQ6QKXZBKK7RNM/19066/index.m3u8
 #EXTINF:-1 group-title="BeIN",Bein Sports XTRA
 https://bein-esp-xumo.amagi.tv/playlistR1080p.m3u8
 #EXTINF:-1 group-title="BeIN",Bein Sports Xtra Espaol
-http://168.119.58.242:80/play/f_BX1L0-rdInVewZIDjltx8GIYiKXQ2GAzkDAKahAb0/ts
-#EXTINF:-1 group-title="BeIN",Bein Sports Xtra Espaol
-https://bl.rutube.ru/livestream/05550e441b09aeec53e60de66b6c47bf/index.m3u8?s=TWw4z6BO4OxYiSI19uWZFQ&e=2085221837&scheme=https
-#EXTINF:-1 group-title="BOX Sport",BOX SportCast HD
-https://tinyurl.com/22ha6p6h
-#EXTINF:-1 group-title="BOX Sport",BOX SportCast Live 1 HD
-https://tinyurl.com/28bcytuo
-#EXTINF:-1 group-title="BOX Sport",BOX SportCast Live 2 HD
-https://tinyurl.com/27ulbmh7
-#EXTINF:-1 group-title="BOX Sport",BOX SportCast Live 3 HD
-https://tinyurl.com/25syrzfl
-#EXTINF:-1 group-title="BOX Sport",BOX SportCast Live 4 HD
-https://tinyurl.com/2xketpde
-#EXTINF:-1 group-title="BOX Sport",BOX SportCast Live 5 HD
-https://tinyurl.com/2cgz35xt
-#EXTINF:-1 group-title="BOX Sport",BOX SportCast Live 6 HD
-https://tinyurl.com/29jh5j59
-#EXTINF:-1 group-title="BOX Sport",BOX SportCast Live 7 HD
-https://tinyurl.com/2cu8qced
-#EXTINF:-1 group-title="Sky",De: Sky Sport F1 720P
-http://norkspkuxae.top:8080/2011755256124860/f0be8be8dccb/61400
-#EXTINF:-1 group-title="Sky",De: Sky Sport Mix 720P
-http://norkspkuxae.top:8080/2011755256124860/f0be8be8dccb/61402
-#EXTINF:-1 group-title="Sky",De: Sky Sport News 720P
-http://norkspkuxae.top:8080/2011755256124860/f0be8be8dccb/61403
-#EXTINF:-1 group-title="Eleven",Eleven Sports 1 HD
-http://bocian.io:8880/NL753811/552284900/105525
+https://bl.rutube.ru/livestream/05550e441b09aeec53e60de66b6c47bf/index.m3u8?s=c8sWmsLyR1HM1toT3leqPQ&e=2095336196&scheme=https
 #EXTINF:-1 group-title="Eleven",Eleven Sports 1 HD PL
 http://bocian.io:8880/7869-00-3/NzkwMTk2MTI3/105525
-#EXTINF:-1 group-title="Eleven",Eleven Sports 2 HD
-http://bocian.io:8880/NL753811/552284900/105526
 #EXTINF:-1 group-title="Eleven",Eleven Sports 2 HD PL
 http://bocian.io:8880/7869-00-3/NzkwMTk2MTI3/105526
-#EXTINF:-1 group-title="Eleven",Eleven Sports 3 HD
-http://bocian.io:8880/NL753811/552284900/105527
 #EXTINF:-1 group-title="Eleven",Eleven Sports 3 Poland HD
 http://bocian.io:8880/7869-00-3/NzkwMTk2MTI3/105527
 #EXTINF:-1 group-title="Eleven",Eleven Sports 4 Poland HD
 http://bocian.io:8880/7869-00-3/NzkwMTk2MTI3/105528
-#EXTINF:-1 group-title="ESPN",ESPN
-http://168.119.58.242:80/play/f_BX1L0-rdInVewZIDjlt97EQ9a4GdoGzEYpt-ewp18/ts
-#EXTINF:-1 group-title="ESPN",Espn - Mexico
-http://8.243.126.131:8000/play/a0gd/index.m3u8
-#EXTINF:-1 group-title="ESPN",ESPN 1
-http://177.52.24.163/ESPN-1-HD/index.m3u8
-#EXTINF:-1 group-title="ESPN",ESPN 2
-http://177.52.24.163/ESPN-2-HD/index.m3u8
-#EXTINF:-1 group-title="ESPN",ESPN 2
-http://8.243.126.131:8000/play/a0ge/index.m3u8
 #EXTINF:-1 group-title="ESPN",ESPN 2 HD
 http://fortv.cc:8080/jftb1963gmail.com/jftb19632024/2210
-#EXTINF:-1 group-title="ESPN",ESPN 2 HD
-http://8.243.126.131:8000/play/a0d3/index.m3u8
-#EXTINF:-1 group-title="ESPN",ESPN 2 HD
-http://8.243.126.131:8000/play/a0nl/index.m3u8
-#EXTINF:-1 group-title="ESPN",ESPN 2 HD
-http://8.243.126.131:8000/play/a0nv/index.m3u8
-#EXTINF:-1 group-title="ESPN",ESPN 3
-http://177.52.24.163/ESPN-3-HD/index.m3u8
-#EXTINF:-1 group-title="ESPN",ESPN 3
-http://8.243.126.131:8000/play/a0jt/index.m3u8
 #EXTINF:-1 group-title="ESPN",ESPN 3 HD
 http://visualprint.info:80/K9P24/82VAdm/71908.ts
-#EXTINF:-1 group-title="ESPN",ESPN 3 HD
-http://8.243.126.131:8000/play/a0d4/index.m3u8
-#EXTINF:-1 group-title="ESPN",ESPN 3 HD
-http://8.243.126.131:8000/play/a0nz/index.m3u8
-#EXTINF:-1 group-title="ESPN",ESPN 4
-http://177.52.24.163/ESPN-4-HD/index.m3u8
-#EXTINF:-1 group-title="ESPN",ESPN 4
-http://8.243.126.131:8000/play/a0ju/index.m3u8
-#EXTINF:-1 group-title="ESPN",ESPN 4HD
-http://8.243.126.131:8000/play/a0kl/index.m3u8
-#EXTINF:-1 group-title="ESPN",ESPN 5
-http://177.52.24.163/ESPN-5-HD/index.m3u8
-#EXTINF:-1 group-title="ESPN",ESPN 5
-http://8.243.126.131:8000/play/a0gq/index.m3u8
-#EXTINF:-1 group-title="ESPN",ESPN 5 HD
-http://8.243.126.131:8000/play/a0h0/index.m3u8
-#EXTINF:-1 group-title="ESPN",ESPN 5 HD
-http://8.243.126.131:8000/play/a0nh/index.m3u8
-#EXTINF:-1 group-title="ESPN",ESPN 6 HD
-http://8.243.126.131:8000/play/a0d5/index.m3u8
-#EXTINF:-1 group-title="ESPN",ESPN 6 HD
-http://8.243.126.131:8000/play/a0ns/index.m3u8
 #EXTINF:-1 group-title="ESPN",ESPN HD
 http://fortv.cc:8080/jftb1963gmail.com/jftb19632024/14197
-#EXTINF:-1 group-title="ESPN",ESPN HD
-http://8.243.126.131:8000/play/a0d2/index.m3u8
-#EXTINF:-1 group-title="ESPN",ESPN HD
-http://8.243.126.131:8000/play/a0nk/index.m3u8
 #EXTINF:-1 group-title="ESPN",Espn Network
 http://fortv.cc:8080/rN13Cf/726521/17608
 #EXTINF:-1 group-title="ESPN",ESPN Premium HD
 http://181.224.255.210:8001/play/a0pt/index.m3u8
-#EXTINF:-1 group-title="ESPN",ESPN Premium HD
-http://8.243.126.131:8000/play/a0no/index.m3u8
-#EXTINF:-1 group-title="ESPN",Espn Primun HD
-http://8.243.126.131:8000/play/a0lu/index.m3u8
 #EXTINF:-1 group-title="ESPN",ESPN U HD
 http://fortv.cc:8080/jftb1963gmail.com/jftb19632024/10255
-#EXTINF:-1 group-title="ESPN",ESPN_ (1080p)
+#EXTINF:-1 group-title="ESPN",ESPN_ (Brazil)_ (1080p)
 http://181.78.197.59:8000/play/a07z/index.m3u8
-#EXTINF:-1 group-title="ESPN",ESPN_3_ (720p)
-http://181.78.197.59:8000/play/a081/index.m3u8
-#EXTINF:-1 group-title="ESPN",ESPN_4_ (1080p)
+#EXTINF:-1 group-title="ESPN",ESPN_ (United_States)_HD_ (720p)
+http://85.237.89.160:9590/usa-s/ESPN-HD/index.m3u8
+#EXTINF:-1 group-title="ESPN",ESPN_2_ (United_States)_HD_ (720p)
+http://85.237.89.160:9590/usa-s/ESPN-2-HD/index.m3u8
+#EXTINF:-1 group-title="ESPN",ESPN_2_Latin_America_ (1080p)
+https://barinaslive1.boldmss.com/ESPN_2/ESPN_2.isml/ESPN_2.m3u8
+#EXTINF:-1 group-title="ESPN",ESPN_2_Latin_America_Colombia_ (1080p)
+http://190.61.47.54:8000/play/a005/index.m3u8
+#EXTINF:-1 group-title="ESPN",ESPN_3_ (Brazil)_ (1080p)
+http://190.83.2.182:8090/ESPN3/index.m3u8
+#EXTINF:-1 group-title="ESPN",ESPN_3_Latin_America_ (1080p)
+https://barinaslive1.boldmss.com/ESPN_3/ESPN_3.isml/ESPN_3.m3u8
+#EXTINF:-1 group-title="ESPN",ESPN_4_ (Brazil)_ (1080p)
 http://181.78.197.59:8000/play/a07n/index.m3u8
-#EXTINF:-1 group-title="ESPN",ESPN_Deportes_ (720p)
-http://40.160.24.58/ESPN_DEPORTES/index.m3u8
-#EXTINF:-1 group-title="ESPN",ESPN2
-http://168.119.58.242:80/play/f_BX1L0-rdInVewZIDjltwbUGFHAGJz48k49xf0lQVw/ts
+#EXTINF:-1 group-title="ESPN",ESPN_4_Latin_America_ (1080p)
+https://barinaslive1.boldmss.com/ESPN_4/ESPN_4.isml/ESPN_4.m3u8
+#EXTINF:-1 group-title="ESPN",ESPN_5_Latin_America_ (1080p)
+https://barinaslive1.boldmss.com/ESPN_5/ESPN_5.isml/ESPN_5.m3u8
+#EXTINF:-1 group-title="ESPN",ESPN_6_Latin_America_ (1080p)
+https://barinaslive1.boldmss.com/ESPN_6/ESPN_6.isml/ESPN_6.m3u8
+#EXTINF:-1 group-title="ESPN",ESPN_7_Latin_America_ (1080p)
+https://barinaslive1.boldmss.com/ESPN_7/ESPN_7.isml/ESPN_7.m3u8
+#EXTINF:-1 group-title="ESPN",ESPN_Deportes_HD_ (720p)
+http://168.228.44.241:9998/play/a0dz/index.m3u8
+#EXTINF:-1 group-title="ESPN",ESPN_Latin_America_ (1080p)
+https://barinaslive1.boldmss.com/ESPN/ESPN.isml/ESPN.m3u8
+#EXTINF:-1 group-title="ESPN",ESPN_Latin_America_Colombia_ (1080p)
+http://181.78.211.244:8005/play/a08q/index.m3u8
+#EXTINF:-1 group-title="ESPN",ESPN_Latin_America_Mexico_ (1080p)
+http://168.228.44.241:9997/play/a06p/index.m3u8
+#EXTINF:-1 group-title="ESPN",ESPN_Premium
+http://45.134.141.161:2200/ARG/ESPN_Premium_Argentina_HD/tracks-v1a1/mono.m3u8
+#EXTINF:-1 group-title="ESPN",ESPN_Premium_HD_ (1080p)
+http://158.172.155.130:8000/play/a0ao/index.m3u8
 #EXTINF:-1 group-title="ESPN",ESPN2 HD Испания
 http://181.224.255.210:8001/play/a0oj/index.m3u8
-#EXTINF:-1 group-title="ESPN",ESPN3
-http://168.119.58.242:80/play/f_BX1L0-rdInVewZIDjlt1JlstyJL054w6wuWKPtCNE/ts
-#EXTINF:-1 group-title="ESPN",ESPN4
-http://168.119.58.242:80/play/f_BX1L0-rdInVewZIDjlt86HXzoVI0do2Jn1JcVYEK0/ts
 #EXTINF:-1 group-title="ESPN",ESPN4 HD Испания
 http://181.224.255.210:8001/play/a0og/index.m3u8
 #EXTINF:-1 group-title="ESPN",ESPN5 HD Испания
 http://181.224.255.210:8001/play/a0pr/index.m3u8
 #EXTINF:-1 group-title="ESPN",ESPN6 HD Испания
 http://181.224.255.210:8001/play/a0eq/index.m3u8
-#EXTINF:-1 group-title="ESPN",ESPN6 HD Испания ????????
-http://168.119.58.242:80/play/f_BX1L0-rdInVewZIDjlt4rzBWTsGar1vSGAS5i6f9k/ts
 #EXTINF:-1 group-title="ESPN",ESPN7 HD Испания
 http://181.224.255.210:8001/play/a0m5/index.m3u8
-#EXTINF:-1 group-title="ESPN",ESPN8_The_Ocho_ (1080p)
+#EXTINF:-1 group-title="ESPN",ESPN8:_The_Ocho_ (1080p)
 https://d3b6q2ou5kp8ke.cloudfront.net/ESPNTheOcho.m3u8
-#EXTINF:-1 group-title="ESPN",ESPNews_ (720p)
-http://41.223.30.230/ESPNNEWS/index.m3u8
-#EXTINF:-1 group-title="ESPN",Espnu_ (720P)
-http://23.237.104.106:8080/USA_ESPNU/index.m3u8
-#EXTINF:-1 group-title="Eurosport",Euro Sport 1 HD
-http://168.119.58.242:80/play/f_BX1L0-rdInVewZIDjlt8eGzcvX6-NWjp-LsWttQI0/ts
+#EXTINF:-1 group-title="ESPN",Espnu_Hd_ (720P)
+http://85.237.89.160:9590/usa-s/ESPN-U-HD/index.m3u8
 #EXTINF:-1 group-title="Eurosport",Euro Sport 1 HD
 http://99.27.51.147:8080/EuroSport/index.m3u8
 #EXTINF:-1 group-title="Eurosport",Euro Sport 2 HD France
 http://151.80.18.177:86/Eurosport_2_HD/index.m3u8
-#EXTINF:-1 group-title="Eurosport",Euro Sport HD
-http://168.119.58.242:80/play/f_BX1L0-rdInVewZIDjlt8IdNE80Lf1erH8uZpDzgks/ts
 #EXTINF:-1 group-title="Eurosport",Euro Sport HD France
 http://151.80.18.177:86/Eurosport_HD/index.m3u8
 #EXTINF:-1 group-title="Eurosport",Eurosport 1
-http://46.32.176.50/eurosport/index.m3u8
-#EXTINF:-1 group-title="Eurosport",Eurosport 1
 https://stream8.cinerama.uz/1439/tracks-v1a1/mono.m3u8
 #EXTINF:-1 group-title="Eurosport",Eurosport 1
-http://sub.bentv.xyz:8080/VzGH6Qgece/qv798TRy64/438238
-#EXTINF:-1 group-title="Eurosport",Eurosport 1
-http://znty.dyndns.org:5010/hls/eurosport.m3u8
+http://stream.mcquack.net/176/index.m3u8
 #EXTINF:-1 group-title="Eurosport",Eurosport 1
 http://37.186.70.39:40/play/111/index.m3u8
 #EXTINF:-1 group-title="Eurosport",Eurosport 1
-http://stream.mcquack.net/176/index.m3u8
-#EXTINF:-1 group-title="Eurosport",Eurosport 1 4K
-http://168.119.58.242:80/play/f_BX1L0-rdInVewZIDjlt0rE2PcBAwflYK8JWh870z8/ts
+http://46.32.176.50/eurosport/index.m3u8
 #EXTINF:-1 group-title="Eurosport",Eurosport 1 HD
-http://168.119.58.242:80/play/f_BX1L0-rdInVewZIDjlt0-E6hm5ztGz_zEw0claa6k/ts
-#EXTINF:-1 group-title="Eurosport",Eurosport 1 HD
-http://168.119.58.242:80/play/f_BX1L0-rdInVewZIDjlt56D3QUocE4y-97yLfrOm-Y/ts
-#EXTINF:-1 group-title="Eurosport",Eurosport 1 HD
-http://168.119.58.242:80/play/f_BX1L0-rdInVewZIDjlt72kuR4s4aIZx5kQmHtIItY/ts
-#EXTINF:-1 group-title="Eurosport",Eurosport 1 HD
-http://168.119.58.242:80/play/f_BX1L0-rdInVewZIDjltwM0y2lzoSxUR3neKNTwzJY/ts
-#EXTINF:-1 group-title="Eurosport",Eurosport 1 HD
-http://168.119.58.242:80/play/f_BX1L0-rdInVewZIDjltxFbSh1orMTBFA1nsG5bk1A/ts
-#EXTINF:-1 group-title="Eurosport",Eurosport 1 HD
-http://168.119.58.242:80/play/f_BX1L0-rdInVewZIDjltznh75jX6TfF-GRls2vlkwU/ts
+http://195.64.140.147:10114/114
 #EXTINF:-1 group-title="Eurosport",Eurosport 1 HD
 http://178.134.1.158:8081/eurosport/index.m3u8
 #EXTINF:-1 group-title="Eurosport",Eurosport 1 HD
-http://hls.stb.md/ESPHD_H264/video.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpcCI6IjEwOS4yMDEuMTUyLjE4MSIsIm5iZiI6MTc4NTIyMTY4NywiZXhwIjoxNzg1MzA4MDg3LCJpYXQiOjE3ODUyMjE2ODcsImlzcyI6InN0Yi5zdGFybmV0Lm1kIn0.BOndD26tTtnXWT939kuJGcT3aYdu9egeNMwZkwNUB58
+http://31.148.5.241/Eurosport_1_HD/index.m3u8
+#EXTINF:-1 group-title="Eurosport",Eurosport 1 HD
+http://hls.stb.md/ESPHD_H264/video.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpcCI6IjEwOS4yMDEuMTUyLjE4MSIsIm5iZiI6MTc5NTMzNjIyMSwiZXhwIjoxNzk1NDIyNjIxLCJpYXQiOjE3OTUzMzYyMjEsImlzcyI6InN0Yi5zdGFybmV0Lm1kIn0.gSJc7aZKNEZB3lryqyllqDaTFTT62DHfFZDF97YfIMY
+#EXTINF:-1 group-title="Eurosport",Eurosport 1 HD
+https://stream3.cinerama.uz/1439/mono.m3u8
+#EXTINF:-1 group-title="Eurosport",Eurosport 1 HD
+http://178.134.1.158:8081/eurosport/index.m3u8?token=
+#EXTINF:-1 group-title="Eurosport",Eurosport 1 HD
+http://141.94.193.53:80/Eurosport_1_HD/index.m3u8
 #EXTINF:-1 group-title="Eurosport",Eurosport 1 HD
 http://178.134.1.158:8081/eurosport/index.m3u8?token=tva.in.ua
 #EXTINF:-1 group-title="Eurosport",Eurosport 1 HD
-http://pars01.com:8080/play/live.php?mac=00:1A:79:4D:00:7C&stream=529591&extension=ts
-#EXTINF:-1 group-title="Eurosport",Eurosport 1 HD Serbian
-http://109.106.239.1:50001/play/a093
-#EXTINF:-1 group-title="Eurosport",Eurosport 1 Poland HD Poland
-http://168.119.58.242:80/play/f_BX1L0-rdInVewZIDjltwzRB9RTvCEqpiXdj6dVHFw/ts
+http://91.205.196.7:8000/play/a02v
+#EXTINF:-1 group-title="Eurosport",Eurosport 1 Russia (1080p)
+https://s7.iptv-24.net/1439/playlist.m3u8
 #EXTINF:-1 group-title="Eurosport",Eurosport 2
-http://46.32.176.50/eurosport2/index.m3u8
-#EXTINF:-1 group-title="Eurosport",Eurosport 2
-http://sub.bentv.xyz:8080/VzGH6Qgece/qv798TRy64/438235
+http://stream.mcquack.net/192/index.m3u8
 #EXTINF:-1 group-title="Eurosport",Eurosport 2
 http://37.186.70.39:40/play/112/index.m3u8
 #EXTINF:-1 group-title="Eurosport",Eurosport 2
-http://stream.mcquack.net/192/index.m3u8
-#EXTINF:-1 group-title="Eurosport",Eurosport 2 4K
-http://168.119.58.242:80/play/f_BX1L0-rdInVewZIDjlt9qwngsfV1cLjHhB8BgqQiQ/ts
+http://46.32.176.50/eurosport2/index.m3u8
 #EXTINF:-1 group-title="Eurosport",Eurosport 2 HD
-http://168.119.58.242:80/play/f_BX1L0-rdInVewZIDjlt-plhQOckU4nAofrtpzOIPE/ts
+http://195.64.140.147:10115/115
 #EXTINF:-1 group-title="Eurosport",Eurosport 2 HD
-http://168.119.58.242:80/play/f_BX1L0-rdInVewZIDjlt0oZMVUMKNTVv101g09egOk/ts
+https://stream8.cinerama.uz/1452/index.m3u8
 #EXTINF:-1 group-title="Eurosport",Eurosport 2 HD
-http://168.119.58.242:80/play/f_BX1L0-rdInVewZIDjlt1TINi6bOs9tAs4kKPG2N9s/ts
+http://31.148.5.241/Eurosport_2_HD/index.m3u8
 #EXTINF:-1 group-title="Eurosport",Eurosport 2 HD
-http://168.119.58.242:80/play/f_BX1L0-rdInVewZIDjlt2QuPQ8h3nICFfcZpDErNAA/ts
+http://hls.stb.md/EUROSPORT2HD_H264/video.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpcCI6IjEwOS4yMDEuMTUyLjE4MSIsIm5iZiI6MTc5NTMzNjIyMSwiZXhwIjoxNzk1NDIyNjIxLCJpYXQiOjE3OTUzMzYyMjEsImlzcyI6InN0Yi5zdGFybmV0Lm1kIn0.gSJc7aZKNEZB3lryqyllqDaTFTT62DHfFZDF97YfIMY
 #EXTINF:-1 group-title="Eurosport",Eurosport 2 HD
-http://168.119.58.242:80/play/f_BX1L0-rdInVewZIDjlt_3DjL3kzmjA4xOuWkXvnbU/ts
+https://stream3.cinerama.uz/1452/mono.m3u8
 #EXTINF:-1 group-title="Eurosport",Eurosport 2 HD
-http://168.119.58.242:80/play/f_BX1L0-rdInVewZIDjltz2ABdwskIq_WzvSYEZpS5Y/ts
+http://141.94.193.53:80/Eurosport_2_HD/index.m3u8
 #EXTINF:-1 group-title="Eurosport",Eurosport 2 HD
-http://hls.stb.md/EUROSPORT2HD_H264/video.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpcCI6IjEwOS4yMDEuMTUyLjE4MSIsIm5iZiI6MTc4NTIyMTY4NywiZXhwIjoxNzg1MzA4MDg3LCJpYXQiOjE3ODUyMjE2ODcsImlzcyI6InN0Yi5zdGFybmV0Lm1kIn0.BOndD26tTtnXWT939kuJGcT3aYdu9egeNMwZkwNUB58
-#EXTINF:-1 group-title="Eurosport",Eurosport 2 HD
-http://pars01.com:8080/play/live.php?mac=00:1A:79:4D:00:7C&stream=529592&extension=ts
-#EXTINF:-1 group-title="Eurosport",Eurosport 2 HD Serbian
-http://109.106.239.1:50001/play/a092
-#EXTINF:-1 group-title="Eurosport",Eurosport Extra 1
-http://168.119.58.242:80/play/f_BX1L0-rdInVewZIDjlt--Fe8XAHBY1tAEvva6wWPI/ts
-#EXTINF:-1 group-title="Eurosport",Eurosport Extra 10
-http://168.119.58.242:80/play/f_BX1L0-rdInVewZIDjlt_qEC_F4o3SCSdC_Q7eVuWE/ts
-#EXTINF:-1 group-title="Eurosport",Eurosport Extra 11
-http://168.119.58.242:80/play/f_BX1L0-rdInVewZIDjlt5o0EmQxswO-d6jnH3vwbgg/ts
-#EXTINF:-1 group-title="Eurosport",Eurosport Extra 12
-http://168.119.58.242:80/play/f_BX1L0-rdInVewZIDjlt8Ee28F5pPWf6x3IJFhNNik/ts
-#EXTINF:-1 group-title="Eurosport",Eurosport Extra 13
-http://168.119.58.242:80/play/f_BX1L0-rdInVewZIDjltzdF8_3Ss14qenCxx8lXXT8/ts
-#EXTINF:-1 group-title="Eurosport",Eurosport Extra 14
-http://168.119.58.242:80/play/f_BX1L0-rdInVewZIDjlt4dNRgy7nfODTq2Dy_DE7cI/ts
-#EXTINF:-1 group-title="Eurosport",Eurosport Extra 15
-http://168.119.58.242:80/play/f_BX1L0-rdInVewZIDjlt8CPhKmwuO-r8IbJmQFfhj0/ts
-#EXTINF:-1 group-title="Eurosport",Eurosport Extra 16
-http://168.119.58.242:80/play/f_BX1L0-rdInVewZIDjlt2fc7MDWg9J3i9EDzNE3LDQ/ts
-#EXTINF:-1 group-title="Eurosport",Eurosport Extra 17
-http://168.119.58.242:80/play/f_BX1L0-rdInVewZIDjlt7US-sfSXJMYDtCu275MxjI/ts
-#EXTINF:-1 group-title="Eurosport",Eurosport Extra 18
-http://168.119.58.242:80/play/f_BX1L0-rdInVewZIDjltzny7K72CYNzy-VOP_dxduA/ts
-#EXTINF:-1 group-title="Eurosport",Eurosport Extra 19
-http://168.119.58.242:80/play/f_BX1L0-rdInVewZIDjlt94_Y5tPZP9UwIpxgd7ZuCI/ts
-#EXTINF:-1 group-title="Eurosport",Eurosport Extra 2
-http://168.119.58.242:80/play/f_BX1L0-rdInVewZIDjlt-OtTwq6N84tOuvCVSCoq2o/ts
-#EXTINF:-1 group-title="Eurosport",Eurosport Extra 20
-http://168.119.58.242:80/play/f_BX1L0-rdInVewZIDjlt8Gg6LmQITXqLAuwwqh_5Do/ts
-#EXTINF:-1 group-title="Eurosport",Eurosport Extra 3
-http://168.119.58.242:80/play/f_BX1L0-rdInVewZIDjltwoCpaaszGd42DOWcgNkixs/ts
-#EXTINF:-1 group-title="Eurosport",Eurosport Extra 4
-http://168.119.58.242:80/play/f_BX1L0-rdInVewZIDjlt-CEsdX3U4qfHCrJ6RLSd7I/ts
-#EXTINF:-1 group-title="Eurosport",Eurosport Extra 5
-http://168.119.58.242:80/play/f_BX1L0-rdInVewZIDjlt_6iGOwIoZTEmO3Q06rmAqc/ts
-#EXTINF:-1 group-title="Eurosport",Eurosport Extra 6
-http://168.119.58.242:80/play/f_BX1L0-rdInVewZIDjlt81DAqZ72wYBUbc4jzBRsMc/ts
-#EXTINF:-1 group-title="Eurosport",Eurosport Extra 7
-http://168.119.58.242:80/play/f_BX1L0-rdInVewZIDjltwErX8oVsn2EKBos26wVkOQ/ts
-#EXTINF:-1 group-title="Eurosport",Eurosport Extra 8
-http://168.119.58.242:80/play/f_BX1L0-rdInVewZIDjlt-zmuVpVNI7GNnpdYw_8lN0/ts
-#EXTINF:-1 group-title="Eurosport",Eurosport Extra 9
-http://168.119.58.242:80/play/f_BX1L0-rdInVewZIDjltwvrTf2fKYwQlj3Y7MpUOak/ts
-#EXTINF:-1 group-title="Eurosport",Eurosport1-Ali3
-http://168.119.58.242:80/play/f_BX1L0-rdInVewZIDjltwJhNV6-v4VR4D6OCUswcEU/ts
+http://91.205.196.7:8000/play/a02w
+#EXTINF:-1 group-title="Eurosport",Eurosport 2 Russia (1080p)
+https://s7.iptv-24.net/1452/playlist.m3u8
+#EXTINF:-1 group-title="Eurosport",Eurosport_ (India)_HD_ (1080p)
+http://116.90.120.149:8000/play/a118/index.m3u8
+#EXTINF:-1 group-title="Eurosport",Eurosport_1
+https://r.eu.cdn-redge.media/livehls/oeu/mt/live/eurosport_1/live.livx/playlist.m3u8
+#EXTINF:-1 group-title="Eurosport",Eurosport_1_Bulgaria
+http://213.91.179.28:8000/play/a05y
+#EXTINF:-1 group-title="Eurosport",Eurosport_1_Czechia
+http://88.212.7.14/live/test_esp1_hevc_tizen/playlist.m3u8
+#EXTINF:-1 group-title="Eurosport",Eurosport_1_Germany
+http://90.183.52.46:4000/play/a06v/index.m3u8
+#EXTINF:-1 group-title="Eurosport",Eurosport_1_HD
+http://31.148.5.241:80/Eurosport_1_HD/index.m3u8
+#EXTINF:-1 group-title="Eurosport",Eurosport_1_Hungary
+http://88.212.7.14/live/esp1_hun/index.m3u8
+#EXTINF:-1 group-title="Eurosport",Eurosport_1_Italy
+https://r.eu.cdn-redge.media/livehls/oeu/mt/live/eurosport_1_it/live.livx/playlist.m3u8
+#EXTINF:-1 group-title="Eurosport",Eurosport_1_Polska_ (1080p)
+http://57.128.210.196:8080/264/index.m3u8
+#EXTINF:-1 group-title="Eurosport",Eurosport_1_Portugal
+http://185.228.163.146:8000/play/a03z/index.m3u8
+#EXTINF:-1 group-title="Eurosport",Eurosport_1_Romania
+http://89.44.231.73:7000/eurosport
+#EXTINF:-1 group-title="Eurosport",Eurosport_1_Spain_ (576p)
+http://45.134.141.161:2200/ARG/Eurosport_1_HD/index.m3u8
+#EXTINF:-1 group-title="Eurosport",Eurosport_1_Turkiye
+https://andro.mangeinde4.lat/checklist/androstreamlivees1.m3u8
+#EXTINF:-1 group-title="Eurosport",Eurosport_1_UK_ (720p)
+https://r.eu.cdn-redge.media/livehls/oeu/mt/live/eurosport_1_en/live.livx/playlist.m3u8
+#EXTINF:-1 group-title="Eurosport",Eurosport_2_ (1080p)
+https://r.eu.cdn-redge.media/livehls/oeu/mt/live/eurosport_2/live.livx/playlist.m3u8
+#EXTINF:-1 group-title="Eurosport",Eurosport_2_Bulgaria
+http://213.91.179.28:8000/play/a04b
+#EXTINF:-1 group-title="Eurosport",Eurosport_2_Czechia
+http://88.212.7.14/live/test_esp2_hevc_tizen/playlist.m3u8
+#EXTINF:-1 group-title="Eurosport",Eurosport_2_HD
+http://31.148.5.241:80/Eurosport_2_HD/index.m3u8
+#EXTINF:-1 group-title="Eurosport",Eurosport_2_Hungary
+http://88.212.7.14/live/esp2_hun/index.m3u8
+#EXTINF:-1 group-title="Eurosport",Eurosport_2_Italy_ (540p)
+https://r.eu.cdn-redge.media/livehls/oeu/mt/live/eurosport_2_it/live.livx/playlist.m3u8
+#EXTINF:-1 group-title="Eurosport",Eurosport_2_Polska_ (1080p)
+http://57.128.210.196:8080/263/index.m3u8
+#EXTINF:-1 group-title="Eurosport",Eurosport_2_Portugal
+http://185.228.163.146:8000/play/a048/index.m3u8
+#EXTINF:-1 group-title="Eurosport",Eurosport_2_Romania
+http://89.44.231.73:7000/eurosport2
+#EXTINF:-1 group-title="Eurosport",Eurosport_2_Spain_ (1080p)
+http://45.134.141.161:2200/ARG/Eurosport_2_HD/index.m3u8
+#EXTINF:-1 group-title="Eurosport",Eurosport_2_Turkiye
+https://andro.mangeinde4.lat/checklist/androstreamlivees2.m3u8
+#EXTINF:-1 group-title="Eurosport",Eurosport_2_UK
+https://r.eu.cdn-redge.media/livehls/oeu/mt/live/eurosport_2_en/live.livx/playlist.m3u8
+#EXTINF:-1 group-title="Eurosport",Eurosport_3_Polska_ (1080p)
+https://vuvuu-geil-m3u8.yaskar661.workers.dev/?url=https%3A%2F%2Fvavoo.to%2Fvavoo-iptv%2Fplay%2F5121596371c5191ed9b35
+#EXTINF:-1 group-title="Eurosport",Eurosport_4_Polska_ (1080p)
+https://vuvuu-geil-m3u8.yaskar661.workers.dev/?url=https%3A%2F%2Fvavoo.to%2Fvavoo-iptv%2Fplay%2F2896573317d9d69e0e2d72
+#EXTINF:-1 group-title="Eurosport",Eurosport_4K_Romania_ (2160p)
+https://vip-acasatv.online:25463/lrZuGxAuP3/6782859900/5449.m3u8
+#EXTINF:-1 group-title="Eurosport",eurosport1 EN
+http://85.117.37.43/eurosport1/index.m3u8
 #EXTINF:-1 group-title="Eurosport",Eurosport1-Ali3 Cz
 http://45.129.141.180:9981/stream/channelid/718615486?profile=iptvin.ru
-#EXTINF:-1 group-title="Eurosport",Eurosport2 HD
-http://168.119.58.242:80/play/f_BX1L0-rdInVewZIDjlt_2WJgWfdxuQfBmhrwtLeGM/ts
-#EXTINF:-1 group-title="Eurosport",Eurosport2-Ali3
-http://168.119.58.242:80/play/f_BX1L0-rdInVewZIDjltwpl_eQBj9zfrZKnkAKwvYA/ts
 #EXTINF:-1 group-title="Eurosport",Eurosport2-Ali3 Cz
 http://45.129.141.180:9981/stream/channelid/737993602?profile=iptvin.ru
-#EXTINF:-1 group-title="QazSport",Qazsport
+#EXTINF:-1 group-title="QazSport",QazSport
 http://stream.mcquack.net/72/index.m3u8
 #EXTINF:-1 group-title="QazSport",Qazsport HD
-http://168.119.58.242:80/play/f_BX1L0-rdInVewZIDjlt1_Hb6rURjd6YDTKsIKjZNA/ts
-#EXTINF:-1 group-title="QazSport",Qazsport HD
-http://62.32.84.50:18000/play/a06b/index.m3u8
-#EXTINF:-1 group-title="QazSport",Qazsport KZ
-https://qazsporttv-stream.qazcdn.com/qazsporttv/qazsporttv/playlist.m3u8
-#EXTINF:-1 group-title="Sky",Qazsport|Teledeporte|BOXSport|BOX Sport|ArenaSport|Arena Sport|BOXSport|BOX Sport|beINSport|beIN Sport|Sky Sport|Skysport|TNT Sport|TNTsport|ESPN|Eurosport|Euro Sport|Окко|Матч|Eleven Sport|Elevensport|Pimple|Суспільне Спорт|Digi Sport|DigiSport-2026-7-29-04-07 http://iptvin.ru
-http://ex.iptvin.ru/iptvin.ru.mp4
-#EXTINF:-1 group-title="Sky",Sky Sport 1 HD
-http://168.119.58.242:80/play/f_BX1L0-rdInVewZIDjlt2DMXzVGFvcBKUeFBLBi-PA/ts
-#EXTINF:-1 group-title="Sky",Sky Sport 1 HD
-http://168.119.58.242:80/play/f_BX1L0-rdInVewZIDjlt9VMRB4loauvFOl2bhKFL_M/ts
-#EXTINF:-1 group-title="Sky",Sky Sport 1 Raw
-http://168.119.58.242:80/play/f_BX1L0-rdInVewZIDjlt70GJrYttx2Md2hk-q_RJ_c/ts
-#EXTINF:-1 group-title="Sky",Sky Sport 10 HD
-http://168.119.58.242:80/play/f_BX1L0-rdInVewZIDjlt34amXhk8Ft2bqJcul8FapU/ts
-#EXTINF:-1 group-title="Sky",Sky Sport 10 HD
-http://168.119.58.242:80/play/f_BX1L0-rdInVewZIDjlt4dJKXtRf6Hkm3DBb1R1Ou4/ts
-#EXTINF:-1 group-title="Sky",Sky Sport 10 Raw
-http://168.119.58.242:80/play/f_BX1L0-rdInVewZIDjlt6mfB1wJtvfrrmb3ls_qFZ8/ts
-#EXTINF:-1 group-title="Sky",Sky Sport 2 HD
-http://168.119.58.242:80/play/f_BX1L0-rdInVewZIDjlt8Mfq5XnV5MwkO73F8ZpEXk/ts
-#EXTINF:-1 group-title="Sky",Sky Sport 2 HD
-http://168.119.58.242:80/play/f_BX1L0-rdInVewZIDjltxQ2IDMCy4nk0hORXsS4_ZA/ts
-#EXTINF:-1 group-title="Sky",Sky Sport 2 Raw
-http://168.119.58.242:80/play/f_BX1L0-rdInVewZIDjlt88d0T-tsEhn-Pk2VmBk15w/ts
-#EXTINF:-1 group-title="Sky",Sky Sport 3 HD
-http://168.119.58.242:80/play/f_BX1L0-rdInVewZIDjlt54Dfz2n9nELcfrB6wzNl0s/ts
-#EXTINF:-1 group-title="Sky",Sky Sport 3 HD
-http://168.119.58.242:80/play/f_BX1L0-rdInVewZIDjlt8in7xCmPQTdV32CczaxtHs/ts
-#EXTINF:-1 group-title="Sky",Sky Sport 3 Raw
-http://168.119.58.242:80/play/f_BX1L0-rdInVewZIDjlt97OHkMp1qjNqgufP1TpU2A/ts
-#EXTINF:-1 group-title="Sky",Sky Sport 4 HD
-http://168.119.58.242:80/play/f_BX1L0-rdInVewZIDjlt9nAv9YxXbdoJ9zvxiqgpoQ/ts
-#EXTINF:-1 group-title="Sky",Sky Sport 4 HD
-http://168.119.58.242:80/play/f_BX1L0-rdInVewZIDjltwfjemQRy4Vah8TmT2Xw45M/ts
-#EXTINF:-1 group-title="Sky",Sky Sport 4 Raw
-http://168.119.58.242:80/play/f_BX1L0-rdInVewZIDjlt4muD0pXXrD55syTutzW8H8/ts
-#EXTINF:-1 group-title="Sky",Sky Sport 5 HD
-http://168.119.58.242:80/play/f_BX1L0-rdInVewZIDjlt-FbsfDYjA16nLnVMcSy_WA/ts
-#EXTINF:-1 group-title="Sky",Sky Sport 5 HD
-http://168.119.58.242:80/play/f_BX1L0-rdInVewZIDjlt5byMdv2RNpUOw_GEVj6nFc/ts
-#EXTINF:-1 group-title="Sky",Sky Sport 5 Raw
-http://168.119.58.242:80/play/f_BX1L0-rdInVewZIDjltwjCbfMZDA2zDaKksnWAfKc/ts
-#EXTINF:-1 group-title="Sky",Sky Sport 6 HD
-http://168.119.58.242:80/play/f_BX1L0-rdInVewZIDjlt3pTbzVsmWWMG40HxjT2frw/ts
-#EXTINF:-1 group-title="Sky",Sky Sport 6 HD
-http://168.119.58.242:80/play/f_BX1L0-rdInVewZIDjlt9L5ISo4C4zspYWLKesl1o8/ts
-#EXTINF:-1 group-title="Sky",Sky Sport 6 Raw
-http://168.119.58.242:80/play/f_BX1L0-rdInVewZIDjlt5J6SgOE7A3_OAGKdk_0AG4/ts
-#EXTINF:-1 group-title="Sky",Sky Sport 7 HD
-http://168.119.58.242:80/play/f_BX1L0-rdInVewZIDjltxQF-gjtfDgEbYXoPMagSiM/ts
-#EXTINF:-1 group-title="Sky",Sky Sport 7 HD
-http://168.119.58.242:80/play/f_BX1L0-rdInVewZIDjltzkd-S47-Q0syFClKFaLi1I/ts
-#EXTINF:-1 group-title="Sky",Sky Sport 7 Raw
-http://168.119.58.242:80/play/f_BX1L0-rdInVewZIDjlt4kFWUFBjQt0ZVwdJm9DB_I/ts
-#EXTINF:-1 group-title="Sky",Sky Sport 8 HD
-http://168.119.58.242:80/play/f_BX1L0-rdInVewZIDjlt8qSpD-P-tot6lexB-i8X48/ts
-#EXTINF:-1 group-title="Sky",Sky Sport 8 HD
-http://168.119.58.242:80/play/f_BX1L0-rdInVewZIDjlt_bhKucSebynq9Fyb44k5EQ/ts
-#EXTINF:-1 group-title="Sky",Sky Sport 8 Raw
-http://168.119.58.242:80/play/f_BX1L0-rdInVewZIDjltz_ZXbKGRw4XI-eghobz5Ek/ts
-#EXTINF:-1 group-title="Sky",Sky Sport 9 HD
-http://168.119.58.242:80/play/f_BX1L0-rdInVewZIDjlt872WwgB5gZ7EfR3qnzp3ms/ts
-#EXTINF:-1 group-title="Sky",Sky Sport 9 HD
-http://168.119.58.242:80/play/f_BX1L0-rdInVewZIDjltzJvMpaBHb-VN0bGMKgs-h8/ts
-#EXTINF:-1 group-title="Sky",Sky Sport 9 Raw
-http://168.119.58.242:80/play/f_BX1L0-rdInVewZIDjlt7GMsEWvxs8xj1uFmdEWEHM/ts
-#EXTINF:-1 group-title="Sky",Sky Sport Bundesliga 1 HD
-http://168.119.58.242:80/play/f_BX1L0-rdInVewZIDjlt75BCk96r4X5hemA0PL5u8E/ts
-#EXTINF:-1 group-title="Sky",Sky Sport Bundesliga 1 HD
-http://168.119.58.242:80/play/f_BX1L0-rdInVewZIDjltxnBveXgdGfer0d6fP7s1Dc/ts
-#EXTINF:-1 group-title="Sky",Sky Sport Bundesliga 1 Raw
-http://168.119.58.242:80/play/f_BX1L0-rdInVewZIDjltwf8AM3GvFukdSWNF15bwSM/ts
-#EXTINF:-1 group-title="Sky",Sky Sport Bundesliga 10 HD
-http://168.119.58.242:80/play/f_BX1L0-rdInVewZIDjlt4y2Q2gmrTEdcAbeZbiWxQw/ts
-#EXTINF:-1 group-title="Sky",Sky Sport Bundesliga 10 HD
-http://168.119.58.242:80/play/f_BX1L0-rdInVewZIDjltzmRehwfrfSLAf8mDJpWHKo/ts
-#EXTINF:-1 group-title="Sky",Sky Sport Bundesliga 10 Raw
-http://168.119.58.242:80/play/f_BX1L0-rdInVewZIDjltwpa0hySpYWBI9tfdx3fkbU/ts
-#EXTINF:-1 group-title="Sky",Sky Sport Bundesliga 2 HD
-http://168.119.58.242:80/play/f_BX1L0-rdInVewZIDjlt81QsPQ0-8XeIRWiRdU0uOQ/ts
-#EXTINF:-1 group-title="Sky",Sky Sport Bundesliga 2 HD
-http://168.119.58.242:80/play/f_BX1L0-rdInVewZIDjlt8mncGittP_EWn_7V6F_wlA/ts
-#EXTINF:-1 group-title="Sky",Sky Sport Bundesliga 2 Raw
-http://168.119.58.242:80/play/f_BX1L0-rdInVewZIDjlt8zw8tpSEhqH8UB63WCiUCo/ts
-#EXTINF:-1 group-title="Sky",Sky Sport Bundesliga 3 HD
-http://168.119.58.242:80/play/f_BX1L0-rdInVewZIDjlt4Iusjtt94cbB-7nB6RZvSM/ts
-#EXTINF:-1 group-title="Sky",Sky Sport Bundesliga 3 HD
-http://168.119.58.242:80/play/f_BX1L0-rdInVewZIDjltw8tYRf84uZbsOs0i8zQatA/ts
-#EXTINF:-1 group-title="Sky",Sky Sport Bundesliga 3 Raw
-http://168.119.58.242:80/play/f_BX1L0-rdInVewZIDjltyeaOARiWmcMQsIITG-8-AM/ts
-#EXTINF:-1 group-title="Sky",Sky Sport Bundesliga 4 HD
-http://168.119.58.242:80/play/f_BX1L0-rdInVewZIDjlt7aIEioeGOZOI-NUvezOgVo/ts
-#EXTINF:-1 group-title="Sky",Sky Sport Bundesliga 4 HD
-http://168.119.58.242:80/play/f_BX1L0-rdInVewZIDjlt9h6IpU38b1ag9oYd7To-Ak/ts
-#EXTINF:-1 group-title="Sky",Sky Sport Bundesliga 4 Raw
-http://168.119.58.242:80/play/f_BX1L0-rdInVewZIDjlt6ma612uAhpkA8Qh6NHviGM/ts
-#EXTINF:-1 group-title="Sky",Sky Sport Bundesliga 5 HD
-http://168.119.58.242:80/play/f_BX1L0-rdInVewZIDjlt5NvrNnv2d8fw13OZLOeZYc/ts
-#EXTINF:-1 group-title="Sky",Sky Sport Bundesliga 5 HD
-http://168.119.58.242:80/play/f_BX1L0-rdInVewZIDjlt6aMQeupJAu2ESJp4h8Ropw/ts
-#EXTINF:-1 group-title="Sky",Sky Sport Bundesliga 5 Raw
-http://168.119.58.242:80/play/f_BX1L0-rdInVewZIDjlt9blSpm6i29Ascqs8ngiX6o/ts
-#EXTINF:-1 group-title="Sky",Sky Sport Bundesliga 6 HD
-http://168.119.58.242:80/play/f_BX1L0-rdInVewZIDjlt8jalfh9HtVyp4qo0mCD9Zc/ts
-#EXTINF:-1 group-title="Sky",Sky Sport Bundesliga 6 HD
-http://168.119.58.242:80/play/f_BX1L0-rdInVewZIDjlt_RXf0MjUHcvPo-YlB4T85Y/ts
-#EXTINF:-1 group-title="Sky",Sky Sport Bundesliga 6 Raw
-http://168.119.58.242:80/play/f_BX1L0-rdInVewZIDjltzXjIlQluaJP_bYpN6JmHV8/ts
-#EXTINF:-1 group-title="Sky",Sky Sport Bundesliga 7 HD
-http://168.119.58.242:80/play/f_BX1L0-rdInVewZIDjlt0PhRNcTqlz3YfIb5tSu3Qs/ts
-#EXTINF:-1 group-title="Sky",Sky Sport Bundesliga 7 HD
-http://168.119.58.242:80/play/f_BX1L0-rdInVewZIDjlt_817rEiljiSl3p1G9O391I/ts
-#EXTINF:-1 group-title="Sky",Sky Sport Bundesliga 7 Raw
-http://168.119.58.242:80/play/f_BX1L0-rdInVewZIDjlt5cViKWIsJlLY9hgk7fDwZY/ts
-#EXTINF:-1 group-title="Sky",Sky Sport Bundesliga 8 HD
-http://168.119.58.242:80/play/f_BX1L0-rdInVewZIDjlt-U4CH9M1rdaq0hLNgINcrQ/ts
-#EXTINF:-1 group-title="Sky",Sky Sport Bundesliga 8 HD
-http://168.119.58.242:80/play/f_BX1L0-rdInVewZIDjlt052mp1INC03YRFIGZJD36M/ts
-#EXTINF:-1 group-title="Sky",Sky Sport Bundesliga 8 Raw
-http://168.119.58.242:80/play/f_BX1L0-rdInVewZIDjlt7n1hVQr17wiTLY2YLS1j3M/ts
-#EXTINF:-1 group-title="Sky",Sky Sport Bundesliga 9 HD
-http://168.119.58.242:80/play/f_BX1L0-rdInVewZIDjlt2yTpHsp0Ylpj5SUhMUpC_w/ts
-#EXTINF:-1 group-title="Sky",Sky Sport Bundesliga 9 HD
-http://168.119.58.242:80/play/f_BX1L0-rdInVewZIDjlt7H_s9l6KSF3PWTXMVMG740/ts
-#EXTINF:-1 group-title="Sky",Sky Sport Bundesliga 9 Raw
-http://168.119.58.242:80/play/f_BX1L0-rdInVewZIDjltw2lD-Cp-y4HjsF_a6fMXHw/ts
-#EXTINF:-1 group-title="Sky",Sky Sport Bundesliga HD
-http://168.119.58.242:80/play/f_BX1L0-rdInVewZIDjlt1rXnWiWg2QQyo_JZX5cXDE/ts
-#EXTINF:-1 group-title="Sky",Sky Sport Bundesliga HD
-http://168.119.58.242:80/play/f_BX1L0-rdInVewZIDjlt2kBcAfFapWew9Z3-G8jhew/ts
-#EXTINF:-1 group-title="Sky",Sky Sport Bundesliga HD
-http://ua.online24.pm/play/836/37C481E09158DA0/video.m3u8
-#EXTINF:-1 group-title="Sky",Sky Sport Bundesliga Raw
-http://168.119.58.242:80/play/f_BX1L0-rdInVewZIDjlt8lmHxXR3DwGG0pBuxmuzuw/ts
-#EXTINF:-1 group-title="Sky",Sky Sport F1
-http://168.119.58.242:80/play/f_BX1L0-rdInVewZIDjlt9GgBUnAmwBhI_IZdw1wOvo/ts
-#EXTINF:-1 group-title="Sky",Sky Sport F1 HD
-http://168.119.58.242:80/play/f_BX1L0-rdInVewZIDjlt2WtmRsKu1dAr0gHDxi9mRA/ts
-#EXTINF:-1 group-title="Sky",Sky Sport F1 HD
-http://168.119.58.242:80/play/f_BX1L0-rdInVewZIDjlt3IsztjJk3Riwk1HbWoj7eM/ts
-#EXTINF:-1 group-title="Sky",Sky Sport F1 HD
-http://168.119.58.242:80/play/f_BX1L0-rdInVewZIDjlt9t0QrnXAFv9k5gjmlOt6H4/ts
-#EXTINF:-1 group-title="Sky",Sky Sport F1 HD
-http://168.119.58.242:80/play/f_BX1L0-rdInVewZIDjltxRt05JEpYEiDXQCz0CJKOc/ts
-#EXTINF:-1 group-title="Sky",Sky Sport F1 HD Dolby 5.1
-http://168.119.58.242:80/play/f_BX1L0-rdInVewZIDjltzShxcFecMircGflWcY2NkE/ts
-#EXTINF:-1 group-title="Sky",Sky Sport F1 Hevc
-http://168.119.58.242:80/play/f_BX1L0-rdInVewZIDjlt7jKN8g4SpJpV0nltccYm_k/ts
-#EXTINF:-1 group-title="Sky",Sky Sport F1 Raw
-http://168.119.58.242:80/play/f_BX1L0-rdInVewZIDjltwEA0li1TuOCyoUgi54gPCU/ts
-#EXTINF:-1 group-title="Sky",Sky Sport F1 Raw
-http://168.119.58.242:80/play/f_BX1L0-rdInVewZIDjltwvolROd3VClTnfXQXzvq4I/ts
-#EXTINF:-1 group-title="Sky",Sky Sport Golf HD
-http://168.119.58.242:80/play/f_BX1L0-rdInVewZIDjltx4-uAW2MgTIBUWefM_atsE/ts
-#EXTINF:-1 group-title="Sky",Sky Sport Golf HD
-http://168.119.58.242:80/play/f_BX1L0-rdInVewZIDjltyLoM8l46blJqJ4lsm2bqP8/ts
-#EXTINF:-1 group-title="Sky",Sky Sport Golf Raw
-http://168.119.58.242:80/play/f_BX1L0-rdInVewZIDjlt_XifsBZtGf65V64NgDpwJs/ts
-#EXTINF:-1 group-title="Sky",Sky Sport Mix
-http://ua.online24.pm/play/745/37C481E09158DA0/video.m3u8
-#EXTINF:-1 group-title="Sky",Sky Sport Mix HD
-http://168.119.58.242:80/play/f_BX1L0-rdInVewZIDjlt7-HCQF_B53zQOk1tuZyJQg/ts
-#EXTINF:-1 group-title="Sky",Sky Sport Mix HD
-http://168.119.58.242:80/play/f_BX1L0-rdInVewZIDjlt9XhXG3BpzdwK3XZR_g0wfY/ts
-#EXTINF:-1 group-title="Sky",Sky Sport Mix Raw
-http://168.119.58.242:80/play/f_BX1L0-rdInVewZIDjlt24M1SbfZdYe9MUIQj09Uss/ts
-#EXTINF:-1 group-title="Sky",Sky Sport News HD
-http://168.119.58.242:80/play/f_BX1L0-rdInVewZIDjlt-B5ZGpxiylACosC4bMGF8Q/ts
-#EXTINF:-1 group-title="Sky",Sky Sport News HD
-http://168.119.58.242:80/play/f_BX1L0-rdInVewZIDjlt3npXOLbRbl_QNnkwkUtVec/ts
-#EXTINF:-1 group-title="Sky",Sky Sport News Raw
-http://168.119.58.242:80/play/f_BX1L0-rdInVewZIDjltwFAWsLok3uQSzAOkUgdB50/ts
-#EXTINF:-1 group-title="Sky",Sky Sport Premier League
-http://ua.online24.pm/play/818/37C481E09158DA0/video.m3u8
-#EXTINF:-1 group-title="Sky",Sky Sport Premier League HD
-http://168.119.58.242:80/play/f_BX1L0-rdInVewZIDjlt2NWomAePKgj7Z-_00IiKXc/ts
-#EXTINF:-1 group-title="Sky",Sky Sport Premier League HD
-http://168.119.58.242:80/play/f_BX1L0-rdInVewZIDjlt6xnSBvEMODzGVqydv4SrJU/ts
-#EXTINF:-1 group-title="Sky",Sky Sport Premier League Raw
-http://168.119.58.242:80/play/f_BX1L0-rdInVewZIDjlt7zbCus-xuq7mQX4yyyxuLQ/ts
-#EXTINF:-1 group-title="Sky",Sky Sport Tennis HD
-http://168.119.58.242:80/play/f_BX1L0-rdInVewZIDjlt2U5CUmAfVPlba4jLHKbIy4/ts
-#EXTINF:-1 group-title="Sky",Sky Sport Tennis HD
-http://168.119.58.242:80/play/f_BX1L0-rdInVewZIDjlty4I7zY1Q_cxye0s0OVwDaE/ts
-#EXTINF:-1 group-title="Sky",Sky Sport Tennis Raw
-http://168.119.58.242:80/play/f_BX1L0-rdInVewZIDjltwEYRZKfmk1hVPWW1y5in8w/ts
-#EXTINF:-1 group-title="Sky",Sky Sport Top Event HD
-http://168.119.58.242:80/play/f_BX1L0-rdInVewZIDjlt-NFgKE3jjuGhcZRgvUsgqM/ts
-#EXTINF:-1 group-title="Sky",Sky Sport Top Event HD
-http://168.119.58.242:80/play/f_BX1L0-rdInVewZIDjlt2-DPhf2MZTHHWiDYHUsVAs/ts
-#EXTINF:-1 group-title="Sky",Sky Sport Top Event Raw
-http://168.119.58.242:80/play/f_BX1L0-rdInVewZIDjlt9kkuCXQ15jm2aqcfuDFkDo/ts
+https://fs.uplink.kz/qazsport_hd/mono.m3u8?token=onlinetv2
+#EXTINF:-1 group-title="Sky",Sky Sport Austria 1 HD DE
+http://54fytrui.dienalt.org/iptv/LQ6QKXZBKK7RNM/2492/index.m3u8
+#EXTINF:-1 group-title="Sky",Sky Sport Bundesliga 1 HD DE
+http://54fytrui.dienalt.org/iptv/LQ6QKXZBKK7RNM/2480/index.m3u8
+#EXTINF:-1 group-title="Sky",Sky Sport F1 DE
+http://54fytrui.dienalt.org/iptv/LQ6QKXZBKK7RNM/19027/index.m3u8
 #EXTINF:-1 group-title="Sky",Sky Sport UHD
 http://electusprs.pro:8080/nSxCFU7A/cdb1sfT/591247
 #EXTINF:-1 group-title="Sky",Sky Sports 1 NZ
@@ -969,20 +479,20 @@ https://7pal.short.gy/skyspt1nz
 https://7pal.short.gy/skyspt2nz
 #EXTINF:-1 group-title="Sky",Sky Sports ActionNFL
 https://7pal.short.gy/ssportsat
+#EXTINF:-1 group-title="Sky",Sky Sports Cricket
+https://bl.rutube.ru/livestream/7c13a51576b9ff2601f08f5d57dd5169/index.m3u8?s=8VYIEyOpGkQc-luV3_g2Gg&e=2095336194&scheme=https
 #EXTINF:-1 group-title="Sky",Sky Sports Cricket Uk
 http://fortv.cc:8080/jftb1963gmail.com/jftb19632024/45940
 #EXTINF:-1 group-title="Sky",Sky Sports Darts HD
 http://fortv.cc:8080/jftb1963gmail.com/jftb19632024/53704
 #EXTINF:-1 group-title="Sky",Sky Sports F1
 https://7pal.short.gy/ssportsf1
-#EXTINF:-1 group-title="Sky",Sky Sports F1 HD
-http://ua.online24.pm/play/9923/37C481E09158DA0/video.m3u8
 #EXTINF:-1 group-title="Sky",Sky Sports F1 UHD
 https://7pal.short.gy/SSF1uhd
+#EXTINF:-1 group-title="Sky",SKY Sports Football
+http://31.43.191.125:8080/restream/restream/1671
 #EXTINF:-1 group-title="Sky",Sky Sports Golf
-http://168.119.58.242:80/play/f_BX1L0-rdInVewZIDjltyjKWrynRHdDDPjYzs01yhY/ts
-#EXTINF:-1 group-title="Sky",Sky Sports Golf
-https://bl.rutube.ru/livestream/a7a17d6b994f02a80aebd69435266b58/index.m3u8?s=FtoeARdiRlvdy1iJK4IPbQ&e=2085221834&scheme=https
+https://bl.rutube.ru/livestream/a7a17d6b994f02a80aebd69435266b58/index.m3u8?s=UEES9df5TUlGN1Tl0c4F3Q&e=2095336194&scheme=https
 #EXTINF:-1 group-title="Sky",Sky Sports Golf Uk
 http://fortv.cc:8080/jftb1963gmail.com/jftb19632024/35240
 #EXTINF:-1 group-title="Sky",Sky Sports Main Event
@@ -996,31 +506,23 @@ https://7pal.short.gy/ssportsnw
 #EXTINF:-1 group-title="Sky",SKY Sports News HD
 http://fortv.cc:8080/jftb1963gmail.com/jftb19632024/35243
 #EXTINF:-1 group-title="Sky",Sky Sports Premier League
-http://168.119.58.242:80/play/f_BX1L0-rdInVewZIDjlt9uocfVTuc6fTXA6PzuNnNY/ts
+https://7pal.short.gy/ssportsp
 #EXTINF:-1 group-title="Sky",Sky Sports Premier League
-https://7pal.short.gy/ssportspl
-#EXTINF:-1 group-title="Sky",Sky Sports Premier League
-https://bl.rutube.ru/livestream/e5bacac3b8e730791d4cab20ae81cd8f/index.m3u8?s=NI3c0zJPwK828hItk088Qg&e=2085221835&scheme=https
+https://bl.rutube.ru/livestream/e5bacac3b8e730791d4cab20ae81cd8f/index.m3u8?s=8LJMppucxEfbWABMcl5Otw&e=2095336195&scheme=https
 #EXTINF:-1 group-title="Sky",Sky Sports Premier League Uk
 http://electusprs.pro:8080/nSxCFU7A/cdb1sfT/591248
+#EXTINF:-1 group-title="Sky",Sky Sports Racing
+https://bl.rutube.ru/livestream/362d68a2d5d5b48dbf23522573e64d57/index.m3u8?s=qbWJmX78bv7u2KpFHkwTgA&e=2095336195&scheme=https
 #EXTINF:-1 group-title="Sky",Sky Sports Racing Uk
 http://fortv.cc:8080/jftb1963gmail.com/jftb19632024/76842
+#EXTINF:-1 group-title="Sky",Sky Sports Tennis
+https://bl.rutube.ru/livestream/5f5dc9d64b43dfc740e92f2bdf2b0d38/index.m3u8?s=vhEyLE0dCZ_c6RhVt7nE_A&e=2095336195&scheme=https
 #EXTINF:-1 group-title="Teledeporte",Teledeporte_ (720p)
 https://rtvelivestream.rtve.es/rtvesec/tdp/tdp_main.m3u8
-#EXTINF:-1 group-title="TNT",Tnt Sport 1 HD
-http://ua.online24.pm/play/922/37C481E09158DA0/video.m3u8
-#EXTINF:-1 group-title="TNT",Tnt Sport 2 HD
-http://ua.online24.pm/play/923/37C481E09158DA0/video.m3u8
-#EXTINF:-1 group-title="TNT",Tnt Sport 3 HD
-http://ua.online24.pm/play/934/37C481E09158DA0/video.m3u8
-#EXTINF:-1 group-title="TNT",Tnt Sports
-http://8.243.126.131:8000/play/a0nr/index.m3u8
-#EXTINF:-1 group-title="TNT",Tnt Sports 1 HD
-http://168.119.58.242:80/play/f_BX1L0-rdInVewZIDjlt4cOsYMYbIFqhCGtUKu5kl0/ts
 #EXTINF:-1 group-title="TNT",TNT Sports 1 HD
 http://kstv.us:8080/live/BWxD9XBSgz/2859225324/47850.ts
 #EXTINF:-1 group-title="TNT",Tnt Sports 1 HD
-https://bl.rutube.ru/livestream/3aa782bace452e7c4b9f81d767512147/index.m3u8?s=AVEMnrKvtWdRYddsL6LG6g&e=2085221833&scheme=https
+https://bl.rutube.ru/livestream/3aa782bace452e7c4b9f81d767512147/index.m3u8?s=D3BolNsQKOAYqySmZYaAwQ&e=2095336193&scheme=https
 #EXTINF:-1 group-title="TNT",TNT Sports 2 HD
 http://kstv.us:8080/live/BWxD9XBSgz/2859225324/47851.ts
 #EXTINF:-1 group-title="TNT",TNT Sports 3 HD
@@ -1029,5 +531,3 @@ http://kstv.us:8080/live/BWxD9XBSgz/2859225324/47852.ts
 http://kstv.us:8080/live/BWxD9XBSgz/2859225324/47853.ts
 #EXTINF:-1 group-title="TNT",TNT Sports 5 HD
 http://kstv.us:8080/live/BWxD9XBSgz/2859225324/47854.ts
-#EXTINF:-1 group-title="TNT",TNT Sports Premiun HD
-http://8.243.126.131:8000/play/a0o7/index.m3u8
